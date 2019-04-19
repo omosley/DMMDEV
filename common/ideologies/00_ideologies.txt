@@ -45,6 +45,8 @@ ideologies = {
 			can_puppet = yes
 		}
 		
+		can_host_government_in_exile = yes
+
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 
@@ -80,7 +82,7 @@ ideologies = {
 			can_send_volunteers = yes
 			can_puppet = yes
 		}
-
+		can_host_government_in_exile = yes
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 
@@ -95,6 +97,9 @@ ideologies = {
 			}
 
 			despotism = {}
+
+			stroessnerism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -115,6 +120,7 @@ ideologies = {
 			can_send_volunteers = yes
 			can_puppet = yes
 		}
+		can_host_government_in_exile = yes
 
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
@@ -164,6 +170,7 @@ ideologies = {
 			can_send_volunteers = yes
 			can_puppet = yes
 		}
+		can_host_government_in_exile = yes
 		
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
@@ -212,6 +219,7 @@ ideologies = {
 			can_only_justify_war_on_threat_country = yes
 			can_guarantee_other_ideologies = yes
 		}
+		can_host_government_in_exile = yes
 		
 		war_impact_on_world_tension = -1.0
 		faction_impact_on_world_tension = -0.1
@@ -262,6 +270,7 @@ ideologies = {
 			can_only_justify_war_on_threat_country = yes
 			can_guarantee_other_ideologies = yes
 		}
+		can_host_government_in_exile = yes
 		
 		war_impact_on_world_tension = -1.0
 		faction_impact_on_world_tension = -0.1
@@ -298,6 +307,7 @@ ideologies = {
 			can_only_justify_war_on_threat_country = yes
 			can_guarantee_other_ideologies = yes
 		}
+		can_host_government_in_exile = yes
 		
 		war_impact_on_world_tension = -1.0
 		faction_impact_on_world_tension = -0.1
@@ -342,6 +352,7 @@ ideologies = {
 			can_only_justify_war_on_threat_country = yes
 			can_guarantee_other_ideologies = yes
 		}
+		can_host_government_in_exile = yes
 		
 		war_impact_on_world_tension = -1.0
 		faction_impact_on_world_tension = -0.1
@@ -392,6 +403,7 @@ ideologies = {
 			can_send_volunteers = yes
 			can_puppet = yes
 		}
+		can_host_government_in_exile = yes
 
 	}
 

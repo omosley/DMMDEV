@@ -1,24 +1,39 @@
+
 state={
 	id=770
 	name="STATE_770"
 
-	history={
-		owner = AFK
-		add_core_of = MLW
-		victory_points = {
-			12986 1 
-		}
-		buildings = {
-			infrastructure = 3
+	state_category=city
+	manpower= 560000
 
+	history=
+	{
+		owner = SAR
+		add_core_of = SAR
+
+		victory_points = {
+			10382 2
+		}
+
+		victory_points = {
+			13223 1
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 2
+
+			10382 = {
+				naval_base = 1
+			}
 		}
 
 	}
 
 	provinces={
-		2255 12908 12986 13209 
+		1460 7327 7368 10354 10382 13219 13220 13221 13223  
 	}
-	manpower=1603975
-	buildings_max_level_factor=1.000
-	state_category=pastoral
+
 }

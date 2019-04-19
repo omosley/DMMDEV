@@ -7,7 +7,9 @@ state={
 	state_category = city
 
 	history={
-		owner = FRA
+		owner = MFR
+		add_core_of = MFR
+		add_core_of = FRA
 		victory_points = {
 			11465 5
 		}
@@ -18,7 +20,10 @@ state={
 			dockyard = 1
 			air_base = 2
 		}
-		add_core_of = FRA
+		2003.12.12 = {
+			owner = FRA
+			controller = FRA
+		}
 	}
 
 	provinces={

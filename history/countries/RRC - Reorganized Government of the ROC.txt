@@ -1,0 +1,139 @@
+﻿capital = 613 # Nanjing
+
+oob = "RRC_2005"
+set_stability = 0.25
+set_war_support = 0.05
+# Starting tech
+set_technology = {
+}
+
+add_ideas = {
+	japanese_military_restrictions
+}
+
+add_ideas = {
+	#laws
+	zaibatsu_exploitation
+	crippled_economy
+}
+
+
+set_convoys = 40
+
+set_politics = {
+
+	parties = {
+		fascist = { 
+			popularity = 32
+			banned = no
+		}
+
+		authoritarian = {
+			popularity = 33
+			banned = no
+		}
+		
+		reactionary = {
+			popularity = 33
+			banned = no
+		}
+
+		corporatist = {
+			popularity = 0
+			banned = yes
+		}
+		
+		conservative = { 
+			popularity = 2
+		}
+
+		liberal = { 
+			popularity = 0
+			banned = yes
+		}
+
+		social_democrat = {
+			popularity = 0
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communist = { 
+			popularity = 0
+			banned = yes
+		}
+	}
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Wang Wenying"
+	desc = "POLITICS_WANG_WENYING_DESC"
+	picture = "gfx/leaders/RRC/Portrait_RNGROC_Wang_Wenying.dds"
+	expire = "2065.1.1"
+	ideology = military_junta		# pls correct or add correct sub ideology
+	traits = {
+		#despised_collaborator
+	}
+}
+
+create_country_leader = {
+	name = "Kōichi Isobe"
+	desc = "POLITICS_KOICHI_ISOBE_DESC"
+	picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+	expire = "2065.1.1"
+	ideology = hakko_ichiu
+	traits = {
+	}
+}
+
+create_country_leader = {
+			name = "Liu Zhongjing"
+			desc = "POLITICS_LIU_ZHONGJING_DESC"
+			picture = "gfx/leaders/RRC/Portrait_RNGROC_Liu_Zhongjing.dds"
+			expire = "2065.1.1"
+			ideology = nationalist
+			traits = {
+				#need to implement fitting trait
+			}
+}
+
+create_field_marshal = {
+	name = "Qi Jianguo"
+	picture = "Portrait_RNGROC_Qi_Jianguo.dds"
+	traits = { defensive_doctrine trait_cautious harsh_leader }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Wang Guanzhong"
+	picture = "Portrait_RNGROC_Wang_Guanzhong.dds"
+	traits = { brilliant_strategist politically_connected }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Wei Fenghe"
+	picture = "Portrait_RNGROC_Wei_Fenghe.dds"
+	traits = { politically_connected }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 1
+}

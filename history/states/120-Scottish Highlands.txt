@@ -11,8 +11,8 @@ state= {
 		aluminium=9 # was: 12
 	}
 
-	history= {
-		add_core_of = SCO
+	history=
+	{
 		owner = ENG
 		victory_points = { 11064 1 }
 		buildings = {

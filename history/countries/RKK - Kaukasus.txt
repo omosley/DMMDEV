@@ -1,0 +1,58 @@
+﻿capital = 219
+
+oob = "RKK_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+
+set_convoys = 10
+
+set_politics = {
+
+	parties = {
+		fascist = { 
+			popularity = 66
+			banned = yes
+		}
+
+		corporatist = {
+			popularity = 14
+			banned = yes
+		}
+		
+		reactionary = {
+			popularity = 18
+			banned = yes
+		}
+		
+		conservative = { 
+			popularity = 2
+		}
+
+		liberal = { 
+			popularity = 0
+			banned = yes
+		}
+
+		social_democrat = {
+			popularity = 0
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 4
+			banned = yes
+		}
+		
+		communist = { 
+			popularity = 6
+		}
+	}
+	ruling_party = fascist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}

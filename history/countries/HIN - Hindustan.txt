@@ -1,0 +1,78 @@
+﻿capital = 438
+
+oob = "HIN_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+
+add_ideas = {
+	member_of_the_confederation
+}
+
+set_politics = {
+
+	parties = {
+		fascist = { 
+			popularity = 18
+			banned = no
+		}
+
+		authoritarian = {
+			popularity = 2
+			banned = no
+		}
+
+		corporatist = {
+			popularity = 4
+			banned = no
+		}
+		
+		reactionary = {
+			popularity = 6
+			banned = no
+		}
+		
+		conservative = { 
+			popularity = 43
+			banned = no
+		}
+
+		liberal = { 
+			popularity = 2
+			banned = no
+		}
+
+		social_democrat = {
+			popularity = 15
+			banned = no
+		}
+		
+		socialist = {
+			popularity = 8
+			banned = no
+		}
+		
+		communist = { 
+			popularity = 2
+			banned = no
+		}
+	}
+	ruling_party = conservative
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Ram Naik"
+	desc = "POLITICS_RAM_NAIK_DESC"
+	picture = "gfx/leaders/HIN/Portrait_HIN_Ram_Naik.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {
+		#
+	}
+}

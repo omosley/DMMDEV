@@ -1,0 +1,16 @@
+RRC_nanjing_garrison_meter = {
+		RRC_reform_economy1 = {
+				icon = generic_nationalism
+				available = {
+					country_exists = RRC
+				}
+				visible = {
+						has_country_flag = loyal_soldier_nanjing_chosen
+				}
+				cost = 60
+				complete_effect = {
+						country_event = china_reform.1
+						add_political_power = -50
+				}
+		}
+}

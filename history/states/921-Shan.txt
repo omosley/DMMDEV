@@ -1,0 +1,15 @@
+state={
+	id=921
+	name="STATE_921"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+	}
+	state_category = pastoral
+	provinces={
+		1170 1566 2061 4210 7562 7603 12363 
+	}
+	manpower=1111110
+	buildings_max_level_factor=1.000
+}

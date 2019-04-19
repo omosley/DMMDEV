@@ -12,18 +12,19 @@ state={
 	}
 
 	history={
-		owner = RAJ
-		victory_points = {
-			8011 1
-		}
+		owner = MAB
+		add_core_of = MAB
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+		}
+		victory_points = {
+			8011 4
 		}
 
 	}
 
 	provinces={
-		1412 4278 4291 4315 4344 4395 5032 7244 7250 7391 7395 7411 8011 8100 10190 10208 10259 10799 12105 12146 12208 12295 12734 
+		7244 10190 1412 8100 4344 12146 8011 12734 4420 10808 8067
 	}
 }

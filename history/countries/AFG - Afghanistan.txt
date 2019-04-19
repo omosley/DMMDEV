@@ -1,0 +1,78 @@
+﻿capital = 267
+
+oob = "AFG_1936"
+
+set_technology = {
+}
+
+set_politics = {
+
+	parties = {
+		fascist = { 
+			popularity = 25
+			banned = no
+		}
+
+		authoritarian = {
+			popularity = 15
+			banned = no
+		}
+		
+		reactionary = {
+			popularity = 58
+			banned = no
+		}
+		
+		conservative = { 
+			popularity = 2
+		}
+
+		liberal = { 
+			popularity = 0
+			banned = yes
+		}
+
+		social_democrat = {
+			popularity = 0
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communist = { 
+			popularity = 0
+			banned = yes
+		}
+	}
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+# Mohammad Hashim Khan (Prime Minister) other potential candidate
+create_country_leader = {
+	name = "Mohammed Zahir Shah"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+
+create_corps_commander = {
+	name = "Sardar Shah Wali Khan"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}

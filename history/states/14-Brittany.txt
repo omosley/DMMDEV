@@ -7,7 +7,8 @@ state={
 	state_category = city
 
 	history={
-		owner = BRT
+		owner = MFR
+		add_core_of = MFR
 		victory_points = {
 			3552 20
 		}
@@ -18,9 +19,9 @@ state={
 			9495 1
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 2
 			dockyard = 4
-			air_base = 5
+			air_base = 3
 			3552 = {
 				naval_base = 10
 				coastal_bunker = 1
@@ -33,12 +34,16 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = BRT
-		1939.1.1 = {
+		2003.12.12 = {
+			owner = OSB
+			controller = OSB
+			add_core_of = OSB
 			buildings = {
-				dockyard = 5
+				infrastructure = 4
+				air_base = 2
 			}
 		}
+        add_core_of = FRA
 	}
 
 	provinces={

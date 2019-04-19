@@ -11,8 +11,8 @@ state=
 	}
 
 	history={
-		add_core_of = SRL
-		owner = ENG
+		owner = TNU
+		add_core_of = TNU
 		victory_points = {
 			10201 3 
 		}
@@ -23,15 +23,15 @@ state=
 			10201 = {
 				naval_base = 5
 			}
-			7260 = {
-				naval_base = 3
-				coastal_bunker = 3
-			}
+			#7260 = {
+			#	naval_base = 3
+			#	coastal_bunker = 3
+			#}
 		}
 
 	}
 	
 	provinces={
-		1213 4219 7260 7344 10201 10229 10287 12258 
+		7344 10201 10229
 	}
 }

@@ -10,7 +10,7 @@ state={
 	state_category = city
 
 	history={
-		owner = FRA
+		owner = ITA
 		victory_points = {
 			911 1 
 		}
@@ -21,7 +21,6 @@ state={
 			infrastructure = 6
 			industrial_complex = 1
 			dockyard = 2
-			fuel_silo = 1
 			air_base = 10
 			911 = {
 				naval_base = 10
@@ -32,7 +31,7 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = FRA
+		add_core_of = ITA
 		1939.1.1 = {
 			buildings = {
 				dockyard = 3

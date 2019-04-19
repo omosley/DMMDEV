@@ -1,0 +1,230 @@
+focus_tree = {
+    id = RNGROC_focus
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = RRC
+        }
+    }
+    continuous_focus_position = { x = 16 y = 3000 }
+
+    shared_focus = CHI_anewpolicyforchina
+    focus = {
+    	id = CHI_a_firm_hand
+    	icon = GFX_focus_generic_self_management
+        x = 4
+        y = 1
+        cost = 1
+        available_if_capitulated = yes 
+        prerequisite = { focus = CHI_anewpolicyforchina }
+        ai_will_do = { 
+            factor = 1
+        } 
+        bypass = { 
+            has_country_flag = in_dire_straits
+        }
+        available = { 
+			has_country_leader = {
+				name = "Wang Wenying"
+				ruling_only = yes
+			}
+ 		}
+        completion_reward = {
+
+        }
+    }
+    focus = {
+    	id = CHI_consider_japan
+    	icon = GFX_focus_chi_collaboration_with_the_japanese
+        x = 3
+        y = 2
+        cost = 1
+        available_if_capitulated = yes 
+        prerequisite = { focus = CHI_a_firm_hand }
+        ai_will_do = { 
+            factor = 1
+        } 
+        bypass = { 
+            has_country_flag = in_dire_straits
+        }
+        available = { 
+			has_country_leader = {
+				name = "Wang Wenying"
+				ruling_only = yes
+			}
+ 		}
+        completion_reward = {
+
+        }
+    }
+    focus = {
+    	id = CHI_consider_the_united_front
+    	icon = GFX_focus_generic_china1
+        x = 5
+        y = 2
+        cost = 1
+        available_if_capitulated = yes 
+        prerequisite = { focus = CHI_a_firm_hand }
+        ai_will_do = { 
+            factor = 1
+        } 
+        bypass = { 
+            has_country_flag = in_dire_straits
+        }
+        available = { 
+			has_country_leader = {
+				name = "Wang Wenying"
+				ruling_only = yes
+			}
+ 		}
+        completion_reward = {
+
+        }
+    }
+    focus = {
+    	id = CHI_concede_some_autonomy
+    	icon = GFX_focus_generic_diplomatic_treaty
+        x = 5
+        y = 3
+        cost = 1
+        available_if_capitulated = yes 
+        prerequisite = { focus = CHI_consider_the_united_front }
+        ai_will_do = { 
+            factor = 1
+        } 
+        bypass = { 
+            has_country_flag = in_dire_straits
+        }
+        available = { 
+			has_country_leader = {
+				name = "Wang Wenying"
+				ruling_only = yes
+			}
+ 		}
+        completion_reward = {
+
+        }
+    }
+    focus = {
+    	id = CHI_reassure_the_garrison
+    	icon = GFX_goal_generic_improve_relations
+        x = 3
+        y = 3
+        cost = 1
+        available_if_capitulated = yes 
+        prerequisite = { focus = CHI_consider_japan }
+        ai_will_do = { 
+            factor = 1
+        } 
+        bypass = { 
+            has_country_flag = in_dire_straits
+        } 
+        available = { 
+			has_country_leader = {
+				name = "Wang Wenying"
+				ruling_only = yes
+			}
+ 		}
+        completion_reward = {
+
+        }
+    }
+    focus = {
+    	id = CHI_maintain_the_balance
+    	icon = GFX_goal_generic_neutrality_focus
+        x = 4
+        y = 4
+        cost = 1
+        available_if_capitulated = yes 
+        prerequisite = { focus = CHI_reassure_the_garrison }
+        prerequisite = { focus = CHI_concede_some_autonomy }
+        ai_will_do = { 
+            factor = 1
+        } 
+        bypass = { 
+            has_country_flag = in_dire_straits
+        } 
+        available = { 
+			has_country_leader = {
+				name = "Wang Wenying"
+				ruling_only = yes
+			}
+ 		}
+        completion_reward = {
+
+        }
+    }
+    focus = {
+    	id = CHI_attract_new_investments
+    	icon = GFX_goal_generic_positive_trade_relations
+        x = 4
+        y = 5
+        cost = 1
+        available_if_capitulated = yes 
+        prerequisite = { focus = CHI_maintain_the_balance }
+        ai_will_do = { 
+            factor = 1
+        } 
+        bypass = { 
+            has_country_flag = in_dire_straits
+        }
+        available = { 
+			has_country_leader = {
+				name = "Wang Wenying"
+				ruling_only = yes
+			}
+ 		}
+        completion_reward = {
+
+        }
+    }
+    focus = {
+    	id = CHI_reinforce_our_allies
+    	icon = GFX_goal_generic_position_armies
+        x = 2
+        y = 5
+        cost = 1
+        available_if_capitulated = yes 
+        prerequisite = { focus = CHI_maintain_the_balance }
+        ai_will_do = { 
+            factor = 1
+        } 
+        bypass = { 
+            has_country_flag = in_dire_straits
+        }
+        available = { 
+			has_country_leader = {
+				name = "Wang Wenying"
+				ruling_only = yes
+			}
+ 		}
+        completion_reward = {
+
+        }
+    }
+    focus = {
+    	id = CHI_reinforce_panasianist_propaganda
+    	icon = GFX_goal_generic_propaganda
+        x = 6
+        y = 5
+        cost = 1
+        available_if_capitulated = yes 
+        prerequisite = { focus = CHI_maintain_the_balance }
+        ai_will_do = { 
+            factor = 1
+        } 
+        bypass = { 
+            has_country_flag = in_dire_straits
+        }
+        available = { 
+			has_country_leader = {
+				name = "Wang Wenying"
+				ruling_only = yes
+			}
+ 		}
+        completion_reward = {
+
+        }
+    }
+}

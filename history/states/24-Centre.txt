@@ -8,7 +8,9 @@ state={
 	state_category = large_town
 
 	history={
-		owner = FRA
+		owner = MFR
+		add_core_of = MFR
+		add_core_of = FRA
 		victory_points = {
 			3671 10
 		}
@@ -21,10 +23,9 @@ state={
 
 		}
 		add_core_of = FRA
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-			}
+		2003.12.12 = {
+			owner = FRA
+			controller = FRA
 		}
 	}
 

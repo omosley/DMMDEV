@@ -2,24 +2,24 @@
 state={
 	id=765
 	name="STATE_765"
-	manpower = 51600
-	state_category = pastoral
 
 	history={
-		add_core_of = QAT
-		owner = ENG
-		victory_points = {
-			8051 1
-		}
+		owner = SIA
 		buildings = {
-			infrastructure = 2
-			8051 = {
-				naval_base = 2
-			}
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 5
+			air_base = 3
+
 		}
+		add_core_of = SIA
+
 	}
 
 	provinces={
-		8051
+		1296 1315 1385 4275 7295 10217 12292 
 	}
+	manpower=560000
+	buildings_max_level_factor=1.000
+	state_category=town
 }
