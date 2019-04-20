@@ -4,18 +4,18 @@ state={
 	name="STATE_320"
 	manpower = 286410
 
-	state_category = enclave
+	state_category = town
 
 	history={
-		owner = FRA
-		add_core_of = RAJ
+		owner = MAB
+		add_core_of = MAB
 		buildings = {
 			infrastructure = 5
-			10149 = {
-				naval_base = 1
-			}
+			#10149 = {
+			#	naval_base = 1
+			#}
 		}
 	}
 
-	provinces={ 10149 }
+	provinces={ 7391 4315 12275 7363 10274 10130 12247 1409 7288 4327 7402 }
 }

@@ -1,24 +1,22 @@
+
 state={
 	id=774
 	name="STATE_774"
 
 	history={
-		owner = AFK
-		add_core_of = CHA
-		victory_points = {
-			2081 1
-		}
+		owner = SIA
+		add_core_of = SIA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 
 		}
 
 	}
 
 	provinces={
-		1473 1883 1993 2081 3123 3181 4897 4978 7919 9152 13138 13211 
+		1357 4582 10384 
 	}
-	manpower=1442456
+	manpower=1200000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }

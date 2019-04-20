@@ -2,7 +2,7 @@
 state={
 	id=387
 	name="STATE_387"
-	manpower = 445031
+	manpower = 1391802
 	
 	state_category = rural
 	
@@ -18,9 +18,6 @@ state={
 			infrastructure = 4
 		}
 		add_core_of = USA
-		victory_points = {
-			9616 1
-		}
 	}
 
 	provinces={

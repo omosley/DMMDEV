@@ -1,0 +1,114 @@
+ideas = {
+     country = {
+          geierpolitik = {
+
+               picture = geierpolitik
+
+               allowed = { 
+                    always = no 
+                }
+
+               allowed_civil_war = { 
+                    always = no
+                }
+
+               removal_cost = -1
+
+               modifier = { 
+                     political_power_factor = -0.1
+                     production_factory_max_efficiency_factor = -0.1 
+                     consumer_goods_factor = -0.10 
+               } 
+          }
+          widespread_corruption = {
+
+               picture = widespread_corruption
+
+               allowed = { 
+                    always = no 
+                }
+
+               allowed_civil_war = { 
+                    always = no
+                }
+
+               removal_cost = -1
+
+               modifier = { 
+                     political_power_factor = -0.1
+                     stability_weekly = -0.01
+               } 
+          }
+          germania_crash = {
+
+               picture = germania_crash
+
+               allowed = { 
+                    always = no 
+                }
+
+               allowed_civil_war = { 
+                    always = no
+                }
+
+               removal_cost = -1
+
+               modifier = { 
+                     political_power_factor = -0.1
+                     consumer_goods_factor = 0.25
+                     industrial_capacity_factory = -0.15
+                     industrial_capacity_dockyard = -0.15
+                     stability_factor = -0.10
+                     stability_weekly = -0.01
+               } 
+          }
+          megacorp_taxes = {
+
+               picture = megacorp_taxes
+
+               allowed = { 
+                    always = no 
+                }
+
+               allowed_civil_war = { 
+                    always = no
+                }
+
+               removal_cost = -1
+
+               modifier = { 
+                     production_factory_efficiency_gain_factor = 0.10
+                     production_factory_start_efficiency_factor = 0.05
+                     consumer_goods_factor = -0.05
+               } 
+          }
+          obedient_soldiers = {
+
+               picture = obedient_soldiers
+
+               allowed = { 
+                    always = no 
+                }
+
+               allowed_civil_war = { 
+                    always = no
+                }
+
+               removal_cost = -1
+
+               modifier = { 
+                     stability_factor = 0.35
+                     army_morale_factor = 0.1
+                     army_core_attack_factor = 0.4
+                     army_core_defence_factor = 0.5
+                     defence = 0.05
+                     offence = 0.075
+                     planning_speed = -0.50
+                     max_planning = -0.25
+                     army_org_Factor = -0.15
+                     encryption_factor = -0.1
+                     attrition = 0.15
+               } 
+          }
+     }
+}

@@ -2,40 +2,34 @@
 state={
 	id=763
 	name="STATE_763"
-	manpower = 2140234
-	state_category = city
+	resources={
+		rubber=110.000
+	}
 
 	history={
-		owner = GER
-		controller = GER
-		
+		owner = SAR
+		add_core_of = SAR
 		victory_points = {
-			6332 10 
+			7658 1 
 		}
-
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
 			industrial_complex = 2
-			6332 = {
+			arms_factory = 2
+			7658 = {
+				naval_base = 1
 				bunker = 1
 
 			}
-			anti_air_building = 2
-			6332 = {
-				naval_base = 5
 
-			}
-			air_base = 6
 		}
-		add_core_of = GER
-		1939.1.1 = {
-			buildings = {
-				anti_air_building = 5
-			}
-		}
+
 	}
 
 	provinces={
-		281 348 395 3384 6332 11265
+		7658 10509 12488 13206 13207 13208 13209 13212 13213 
 	}
+	manpower=3462000
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }

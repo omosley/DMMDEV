@@ -9,16 +9,12 @@ state={
 	}
 
 	history={
-		owner = FRA
-		add_core_of = TUN
+		owner = ITA
 		victory_points = {
 			11969 10 
 		}
 		victory_points = {
 			9994 1 
-		}
-		victory_points = {
-			11921 1 
 		}
 		buildings = {
 			infrastructure = 4

@@ -1,0 +1,294 @@
+focus_tree = {
+	id = USA
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+
+	focus = {
+		id = USA_Drum_Up_Support
+		icon = GFX_goal_unknown
+		x = 4
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 4
+		}
+		available = {
+			}
+		completion_reward = {
+			add_political_power = 25
+
+			add_popularity = {
+				ideology = conservative
+				popularity = 0.05
+		}
+
+		}
+	}
+
+	focus = {
+		id = USA_Continue_Jeb's_Policies 
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 4
+		}
+		available = {
+			}
+		completion_reward = {
+			add_political_power = 5
+			add_war_support = 0.05
+
+			
+		}
+
+		}
+
+	focus = {
+		id = USA_shapiro
+		icon = GFX_goal_unknown
+		x = 10
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 4
+		}
+		available = {
+			}
+		completion_reward = {
+			add_political_power = 5
+			add_war_support = 0.05
+
+			
+		}
+
+		}
+	focus = {
+		id = USA_left_wing_destroyed
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		cost = 10
+		prerequisite = { focus = USA_shapiro }
+		ai_will_do = {
+			factor = 4
+		}
+		available = {
+			}
+		completion_reward = {
+			add_political_power = 5
+			add_war_support = 0.05
+
+			
+		}
+
+		}
+
+	focus = {
+		id = USA_shapiro_vs_board_of_education
+		icon = GFX_goal_unknown
+		x = 8
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 4
+		}
+		available = {
+			}
+			prerequisite = { focus = USA_left_wing_destroyed }
+		completion_reward = {
+			add_political_power = 5
+			add_war_support = 0.05
+
+			
+		}
+
+		}
+	focus = {
+		id = USA_common_corps
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 4
+		}
+		prerequisite = { focus = USA_shapiro_vs_board_of_education }
+		available = {
+			}
+		completion_reward = {
+			add_political_power = 5
+			add_war_support = 0.05
+
+			
+		}
+
+		}
+	focus = {
+		id = USA_100_flowers_campaign
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		prerequisite = { focus = USA_shapiro_vs_board_of_education }
+		cost = 10
+		ai_will_do = {
+			factor = 4
+		}
+		available = {
+			}
+		completion_reward = {
+			add_political_power = 5
+			add_war_support = 0.05
+
+			
+		}
+
+		}
+	focus = {
+		id = USA_100_libtard_tears
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		cost = 10
+		prerequisite = { focus = USA_100_flowers_campaign }
+		ai_will_do = {
+			factor = 4
+		}
+		available = {
+			}
+		completion_reward = {
+			add_political_power = 5
+			add_war_support = 0.05
+
+			
+		}
+
+		}
+	focus = {
+		id = USA_a_second_washington
+		icon = GFX_goal_unknown
+		x = 10
+		y = 1
+		cost = 10
+		prerequisite = { focus = USA_shapiro }
+		ai_will_do = {
+			factor = 4
+		}
+		available = {
+			}
+		completion_reward = {
+			add_political_power = 5
+			add_war_support = 0.05
+
+			
+		}
+
+		}
+	focus = {
+		id = USA_freedom_without_democracy
+		icon = GFX_goal_unknown
+		x = 10
+		y = 2
+		cost = 10
+		prerequisite = { focus = USA_a_second_washington }
+		ai_will_do = {
+			factor = 4
+		}
+		available = {
+			}
+		completion_reward = {
+			add_political_power = 5
+			add_war_support = 0.05
+
+			
+		}
+
+		}
+	focus = {
+		id = USA_liberty_without_liberty
+		icon = GFX_goal_unknown
+		x = 10
+		y = 3
+		prerequisite = { focus = USA_freedom_without_democracy }
+		cost = 10
+		ai_will_do = {
+			factor = 4
+		}
+		available = {
+			}
+		completion_reward = {
+			add_political_power = 5
+			add_war_support = 0.05
+
+			
+		}
+
+		}
+	focus = {
+		id = USA_the_revolution_is_finished
+		icon = GFX_goal_unknown
+		x = 9
+		y = 4
+		cost = 10
+		prerequisite = { focus = USA_liberty_without_liberty }
+		ai_will_do = {
+			factor = 4
+		}
+		available = {
+			}
+		completion_reward = {
+			add_political_power = 5
+			add_war_support = 0.05
+
+			
+		}
+
+		}
+	focus = {
+		id = USA_the_gamers_take_over
+		icon = GFX_goal_unknown
+		x = 11
+		y = 4
+		prerequisite = { focus = USA_liberty_without_liberty }
+		cost = 10
+		ai_will_do = {
+			factor = 4
+		}
+		available = {
+			}
+		completion_reward = {
+			add_political_power = 5
+			add_war_support = 0.05
+
+			
+		}
+
+		}
+	focus = {
+		id = USA_say_the_nword
+		icon = GFX_goal_unknown
+		x = 11
+		y = 5
+		cost = 10
+		prerequisite = { focus = USA_the_gamers_take_over }
+		ai_will_do = {
+			factor = 4
+		}
+		available = {
+			}
+		completion_reward = {
+			add_political_power = 5
+			add_war_support = 0.05
+
+			
+		}
+
+		}

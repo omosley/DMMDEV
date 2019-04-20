@@ -1,0 +1,35 @@
+﻿capital = 274
+
+oob = "RKW_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+
+set_convoys = 10
+
+set_politics = {
+
+	parties = {
+        fascist = {
+        	popularity = 100
+        	banned = no
+        }
+        authoritarian = { popularity = 0 }
+        reactionary = { popularity = 0 }
+        conservative = { popularity = 0 }
+        liberal = { popularity = 0 }
+        social_democrat = { popularity = 0 }
+        socialist = { popularity = 0 }
+        communist = { popularity = 0 }
+
+	}
+	
+	ruling_party = fascist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}

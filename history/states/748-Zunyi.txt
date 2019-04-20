@@ -2,19 +2,16 @@ state={
 	id=748
 	name="STATE_748"
 	provinces={
-		1010 4141 4325 4431 9939 10763 11972 
+		1010 4325 4431 10763
 	}
 	history={
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = RRC
+		add_core_of = RRC
 		buildings = {
 			infrastructure = 2
 
 		}
-		victory_points = {
-			1010 3
-		}
+		set_demilitarized_zone = yes
 		1939.1.1 = {
 			buildings = {
 				infrastructure = 4

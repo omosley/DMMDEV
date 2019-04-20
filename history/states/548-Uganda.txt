@@ -12,10 +12,7 @@ state={
 			infrastructure = 3
 
 		}
-		add_core_of = UGA
-		victory_points = {
-			12989 1
-		}
+		add_core_of = KEN
 	}
 
 	provinces={

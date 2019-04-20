@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = CAN
+		owner = USA
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
@@ -15,10 +15,10 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = CAN
+		add_core_of = USA
 	}
 
 	provinces={
-		634 1424 4285 4342 4362 4432 7379 12289 
+		634 1424 4285 4342 4362 4432 7379 12289
 	}
 }

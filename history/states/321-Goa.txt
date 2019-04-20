@@ -4,11 +4,11 @@ state={
 	name="STATE_321"
 	manpower = 533952
 
-	state_category = enclave
+	state_category = town
 
 	history={
-		owner = POR
-		add_core_of = RAJ
+		owner = BOM
+		add_core_of = BOM
 		victory_points = {
 			1273 1 
 		}
@@ -21,6 +21,6 @@ state={
 	}
 
 	provinces={
-		1273 
+		1273 4395 12295 7250 4291 12105 4278 10208 7395 12208
 	}
 }

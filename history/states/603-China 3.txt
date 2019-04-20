@@ -3,15 +3,15 @@ state={
 	name="STATE_603"
 
 	history={
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = RRC
+		add_core_of = RRC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 2
 
 		}
+		set_demilitarized_zone = yes
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4
@@ -29,7 +29,7 @@ state={
 	}
 
 	provinces={
-		1474 1884 4192 4504 4532 5072 7521 7549 7577 8095 10616 10819 12841 
+		1474 4504 7577 8095 10616 10335
 	}
 	manpower=7543200
 	buildings_max_level_factor=1.000

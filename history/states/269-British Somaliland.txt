@@ -7,17 +7,10 @@ state=
 	state_category = enclave
 	
 	history= {
-		victory_points = { 
-			10833 1
-		}
-		victory_points = { 
-			5068 1
-		}
-		owner = ENG
-		add_core_of = SOM
+		owner = ITA
 		buildings = {
 			infrastructure = 3
-			10833 = {
+			12759 = {
 				naval_base = 1
 			}
 		}

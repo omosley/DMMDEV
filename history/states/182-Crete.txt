@@ -7,25 +7,22 @@ state=
 	state_category = rural
 	history=
 	{
-		owner = GRE
+		owner = ITA
 		victory_points = {
-			9940 5
-		}
-		victory_points = {
-			12058 3
+			9940 1 
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			air_base = 1
-			12058 = {
+			4170 = {
 				naval_base = 1
 			}
 			9940 = {
 				naval_base = 3
 			}
 		}
-		add_core_of = GRE
+		add_core_of = ITA
 	}
 	provinces=
 	{

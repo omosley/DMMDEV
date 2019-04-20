@@ -1,0 +1,17 @@
+state={
+	id=916
+	name="Benin"
+	provinces={
+		10919 12762 12874
+		
+	}
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 4 
+		}
+	}
+	manpower=7398000
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

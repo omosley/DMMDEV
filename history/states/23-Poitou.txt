@@ -11,7 +11,9 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = MFR
+		add_core_of = MFR
+		add_core_of = FRA
 		victory_points = {
 			6657 5
 		}
@@ -22,7 +24,10 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = FRA
+		2003.12.12 = {
+			owner = FRA
+			controller = FRA
+		}
 	}
 
 	provinces={

@@ -10,15 +10,6 @@ state={
 	}
 
 	history={
-		victory_points = {
-			11430 5
-		}
-		victory_points = {
-			3458 5
-		}
-		#victory_points = {
-		#	562 3
-		#}
 		owner = GER
 		buildings = {
 			infrastructure = 6

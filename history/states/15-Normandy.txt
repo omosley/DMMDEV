@@ -10,28 +10,22 @@ state={
 	state_category = city
 
 	history={
-		owner = FRA
+		owner = MFR
+		add_core_of = MFR
 		victory_points = {
-			9434 10
+			9434 5
 		}
 		victory_points = {
-			6449 3
+			6449 15
 		}
 		victory_points = {
 			11563 5
 		}
-		victory_points = {
-			485 3
-		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 3
 			industrial_complex = 2
-			air_base = 6
+			air_base = 4
 			6449 = {
-				naval_base = 3
-				coastal_bunker = 1
-			}
-			9434 = {
 				naval_base = 5
 				coastal_bunker = 1
 			}
@@ -39,10 +33,19 @@ state={
 				naval_base = 1
 			}
 		}
+		2003.12.12 = {
+			owner = OSN
+			controller = OSN
+			add_core_of = OSN
+			buildings = {
+				infrastructure = 4
+				air_base = 2
+			}
+		}
 		add_core_of = FRA
 	}
 
 	provinces={
-		485 539 553 3534 3549 3579 6449 6569 6599 9434 9550 9578 11521 11535 11563 
+		485 539 553 3534 3549 3579 6449 6569 6599 9434 9550 9578 11521 11535 11563 9534
 	}
 }

@@ -1,0 +1,78 @@
+﻿capital = 302
+
+oob = "BOL_1936"
+
+# Starting tech
+set_technology = {
+}
+set_country_flag = monroe_doctrine
+
+set_politics = {
+
+	parties = {
+		fascist = { 
+			popularity = 25
+			banned = no
+		}
+
+		authoritarian = {
+			popularity = 15
+			banned = no
+		}
+		
+		reactionary = {
+			popularity = 58
+			banned = no
+		}
+		
+		conservative = { 
+			popularity = 2
+		}
+
+		liberal = { 
+			popularity = 0
+			banned = yes
+		}
+
+		social_democrat = {
+			popularity = 0
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communist = { 
+			popularity = 0
+			banned = yes
+		}
+	}
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "José Luis Tejada Sorzano"
+	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
+	picture = "Portrait_Bolivia_Jose_Luis_Tejada_Sorzano.dds"
+	expire = "1965.1.1"
+	ideology = despotism # liberalism, personally, but puppet for military
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Óscar Únzaga de la Vega"
+	desc = "POLITICS_OSCAR_UNZAGA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = futurist
+	traits = {
+		#
+	}
+}

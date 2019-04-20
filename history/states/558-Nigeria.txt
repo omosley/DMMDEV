@@ -10,7 +10,6 @@ state={
 	}
 	history={
 		owner = ENG
-		add_core_of = NGA
 		buildings = {
 			infrastructure = 3
 			arms_factory = 0

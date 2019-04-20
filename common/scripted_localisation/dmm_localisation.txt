@@ -1,0 +1,13 @@
+defined_text = { # global
+  name = DMM_MENU_TOOLTIP
+
+  text = {
+    trigger = {
+      ROOT = { has_global_flag = menu_open }
+    }
+    localization_key = DMM_MENU_TOOLTIP_off
+  }
+  text = {
+    localization_key = DMM_MENU_TOOLTIP_on
+  }
+}
