@@ -1,4 +1,5 @@
-l_english:
+﻿l_english:
 
-  DMM_MENU_TOOLTIP_off:0 "DMM Menu is OFF"
-  DMM_MENU_TOOLTIP_on:0 "DMM Menu is ON"
+  dmm_menu_main_tooltip_off:0 "£trigger_yes Open DMM Menu £trigger_yes"
+  dmm_menu_main_tooltip_on:0 "£trigger_no Close DMM Menu £trigger_no"
+  dmm_main_menu_text:0 "DMM Main Menu"

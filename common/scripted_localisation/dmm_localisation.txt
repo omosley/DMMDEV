@@ -1,13 +1,20 @@
 defined_text = { # global
-  name = DMM_MENU_TOOLTIP
+  name = dmm_menu_main_tooltip
 
   text = {
     trigger = {
-      ROOT = { has_global_flag = menu_open }
+      has_global_flag = menu_open
     }
-    localization_key = DMM_MENU_TOOLTIP_off
+    localization_key = dmm_menu_main_tooltip_on
   }
   text = {
-    localization_key = DMM_MENU_TOOLTIP_on
+    localization_key = dmm_menu_main_tooltip_off
+  }
+}
+defined_text = { # global
+  name = dmm_main_menu_text
+
+  text = {
+    localization_key = dmm_main_menu_text
   }
 }

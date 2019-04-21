@@ -6,7 +6,7 @@ scripted_gui = {
 			NOT = { has_global_flag = hidden_switch }
 		}
 		effects = {
-			open_menu_button = {
+			open_menu_button_click = {
 				if = {
 					limit = { NOT = { has_global_flag = menu_open } }
 					set_global_flag = menu_open
@@ -27,7 +27,7 @@ scripted_gui = {
 			always = yes
 		}
 		effects = {
-			hide_menu_button = {
+			hide_menu_button_click = {
 				if = {
 					limit = { NOT = { has_global_flag = hidden_switch } }
 					set_global_flag = hidden_switch
