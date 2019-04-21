@@ -46,13 +46,13 @@ guiTypes = {
     
          background = {
            name = "Background"
-           spriteType = "GFX_BPT_areadef_conf_bg"
+           spriteType = "GFX_dmm_menu_bg"
          }
          instantTextboxType = {
       name = "title"
       position = {x=14 y=6}
       font = "hoi_18mbs"
-      text = "[This.GetName]"
+      text = "[dmm_main_menu_text]"
       maxWidth = 200
       maxHeight = 23
       format = left
@@ -67,4 +67,27 @@ guiTypes = {
       pdx_tooltip = "DMM_testing"
       }       
        }
+       
+    containerWindowType = {
+         name = "dmm_menu_pollution_container"
+         position = {x=1250 y=170}
+         size = { width=500 height=500 }
+
+         fade_time = 300
+         fade_type = linear
+         moveable = yes
+    
+         background = {
+           name = "Background"
+           spriteType = "GFX_dmm_menu_bg"
+         }
+         
+         icon = {
+           name = "title_pollution"
+           spriteType = "GFX_pollution_meter_background"
+           position = { x=0 y=-20}
+           Orientation = "MIDDLE"         
+         }
+     }    
+         
 }
