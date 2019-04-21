@@ -401,6 +401,17 @@ ideas = {
 				army_core_defence_factor = 0.15
 			}
 		}
+		work_quotas = {
+			picture = generic_purge
+			allowed = { always = no }
+			allowed_civil_war = { has_government = reactionary }
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.2
+				line_change_production_efficiency_factor = 0.2
+				industrial_capacity_factory = 0.05
+			}
+		}
 	}
 
 	political_advisor = {
