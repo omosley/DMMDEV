@@ -843,3 +843,12 @@ GYA = {
 	color = rgb { 102 255 178 }
 	color_ui = rgb { 102 255 178 }
 }
+
+AFK = {
+	color = rgb { 57  45  70 }
+	color_ui = rgb { 57  45  70 }
+}
+ALG = {
+	color = rgb { 65  95  75 }
+	color_ui = rgb { 65  95  75 }
+}

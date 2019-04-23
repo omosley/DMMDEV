@@ -1,0 +1,65 @@
+﻿capital = 459
+
+# Starting tech
+set_technology = {
+}
+
+set_convoys = 20
+
+
+set_politics = {
+
+	parties = {
+		fascist = { 
+			popularity = 0
+			banned = no
+		}
+
+		authoritarian = {
+			popularity = 0
+			banned = no
+		}
+		
+		reactionary = {
+			popularity = 100
+			banned = no
+		}
+		
+		conservative = { 
+			popularity = 0
+		}
+
+		liberal = { 
+			popularity = 0
+			banned = yes
+		}
+
+		social_democrat = {
+			popularity = 0
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communist = { 
+			popularity = 0
+			banned = yes
+		}
+	}
+	ruling_party = reactionary
+	elections_allowed = no
+}
+
+
+create_country_leader = {
+	name = "Unknown Boi"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	#picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	ideology = nationalist
+	traits = {
+		#
+	}
+}

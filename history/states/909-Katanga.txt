@@ -5,7 +5,7 @@ state={
 		191 1516 1817 1929 1968 4515 9986 12795 12907 
 	}
 	history={
-		owner = BEL
+		owner = AFK
 		buildings = {
 			infrastructure = 3
 		}

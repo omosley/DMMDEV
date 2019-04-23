@@ -5,11 +5,10 @@ state={
 		3109 6008 8193 12975 
 	}
 	history={
-		owner = FRA
+		owner = AFK
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = FRA
 	}
 	manpower=345
 	buildings_max_level_factor=1.000

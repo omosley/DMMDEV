@@ -1,17 +1,21 @@
+
 state={
 	id=918
 	name="STATE_918"
-	provinces={
-		5013 5070 8065 8122 10762 10803 
-		
-	}
+
 	history={
-		owner = FRA
+		owner = AFK
 		buildings = {
 			infrastructure = 4
+
 		}
+
 	}
-	manpower= 17730000
-	state_category = rural
+
+	provinces={
+		5013 5070 7983 8065 8122 10762 10803 
+	}
+	manpower=17730000
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

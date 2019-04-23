@@ -115,23 +115,10 @@ KEN = "countries/Kenya.txt"
 PAK = "countries/Pakistan.txt"
 BOT = "countries/Botswana.txt"
 MAN = "countries/Manchukou.txt"
-#<<<<<<< HEAD:history/country_tags/00_countries.txt
-
 RKK = "countries/Kaukasus.txt"
-
-#GKN = "countries/GK Nowgorodien.txt"
-
-#GKT = "countries/GK Tula.txt"
-
-
-#GKM = "countries/GK Moskowien.txt"
-#=======
 GKN = "countries/Nowgorodien.txt"
 GKT = "countries/Tula.txt"
 GKM = "countries/Moskowien.txt"
-#>>>>>>> b183b74a6c5b6a4ee277d0620204fdbffa22f403:common/country_tags/00_countries.txt
-
-
 GKK = "countries/Generalkomissariat Kosakenstadt.txt"
 OSP = "countries/SS Palestine.txt"
 DAG = "countries/Dagestan.txt"
