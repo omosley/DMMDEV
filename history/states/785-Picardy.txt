@@ -4,12 +4,13 @@ state={
 	name="STATE_785"
 
 	history={
-		owner = SIA
-		add_core_of = SIA
+		owner = BRM
+		add_core_of = BRM
+
 	}
 
 	provinces={
-		7601 10438 12195 12264 12417 12431 
+		1014 1142 1333 3651 12090 
 	}
 	manpower=8850000
 	buildings_max_level_factor=1.000

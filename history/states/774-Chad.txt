@@ -4,8 +4,8 @@ state={
 	name="STATE_774"
 
 	history={
-		owner = SIA
-		add_core_of = SIA
+		owner = BRM
+		add_core_of = BRM
 		buildings = {
 			infrastructure = 1
 
@@ -14,9 +14,9 @@ state={
 	}
 
 	provinces={
-		1357 4582 10384 
+		3999 4019 4059 4147 4454 7122 7190 10033 11966 
 	}
 	manpower=1200000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 }

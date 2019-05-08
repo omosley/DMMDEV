@@ -4,15 +4,15 @@ state={
 	name="STATE_816"
 
 	history={
-		owner = VIN
-		add_core_of = VIN
+		owner = BRM
+		add_core_of = BRM
 
 	}
 
 	provinces={
-		1302 4379 4397 7280 9988 10016 11909 11936 12297 
+		1082 1197 1934 4318 4425 4996 8063 10920 
 	}
 	manpower=560000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 }

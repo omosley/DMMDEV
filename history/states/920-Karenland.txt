@@ -1,15 +1,18 @@
+
 state={
 	id=920
 	name="STATE_920"
 
 	history={
-		owner = RAJ
-		add_core_of = RAJ
+		owner = BRM
+		add_core_of = BRM
+
 	}
-	state_category = pastoral
+
 	provinces={
-		1607 4293 4408 4654 7441 12238 
+		4293 4408 4654 7441 12238 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

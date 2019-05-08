@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = BRM
+		add_core_of = BRM
 		victory_points = {
 			1330 5 
 		}
@@ -25,9 +26,9 @@ state={
 	}
 
 	provinces={
-		1014 1142 1330 1333 1417 1650 3651 3999 4019 4059 4147 4202 4454 4541 4626 7034 7122 7163 7190 7254 7382 7534 10033 10154 10182 10223 10267 10283 10344 11966 12090 12127 12197 12256 12267 12284 12449 
+		1330 1417 7254 7382 10154 10182 10223 10267 10283 10344 12127 12197 12256 12267 12284 
 	}
 	manpower=10722500
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 }
