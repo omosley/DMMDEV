@@ -1,12 +1,12 @@
 
 state={
-	id=742
-	name="STATE_742"
+	id=935
+	name="STATE_935"
 
 	history={
 		owner = SOV
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 
 		}
 		add_core_of = SOV
@@ -14,9 +14,9 @@ state={
 	}
 
 	provinces={
-		1216 1384 1919 4542 7224 10205 12218 12250 12430 
+		1532 1554 4488 4499 4578 4618 7486 7501 7507 10420 
 	}
-	manpower=230000
+	manpower=33721
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

@@ -1,12 +1,13 @@
 
 state={
-	id=584
-	name="STATE_584"
+	id=936
+	name="STATE_936"
 
 	history={
 		owner = SOV
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 
 		}
 		add_core_of = SOV
@@ -14,9 +15,9 @@ state={
 	}
 
 	provinces={
-		1593 7477 7563 10359 10406 12359 
+		1649 4549 7924 10742 
 	}
-	manpower=200000
+	manpower=664523
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

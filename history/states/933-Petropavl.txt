@@ -1,22 +1,21 @@
-
 state={
-	id=585
-	name="STATE_585"
-
+	id=933
+	name="STATE_933"
+	
 	history={
 		owner = SOV
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 
 		}
 		add_core_of = SOV
 
 	}
-
+	
 	provinces={
-		1573 1623 1632 7639 9605 10470 12161 
+		1229 1309 1391 1694 4850 7741 7874 12619 
 	}
-	manpower=250000
+	manpower=15450
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

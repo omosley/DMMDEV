@@ -1,7 +1,7 @@
 
 state={
-	id=585
-	name="STATE_585"
+	id=934
+	name="STATE_934"
 
 	history={
 		owner = SOV
@@ -14,9 +14,9 @@ state={
 	}
 
 	provinces={
-		1573 1623 1632 7639 9605 10470 12161 
+		1479 1576 1614 7541 10395 10435 12233 12324 12454 12465 12471 
 	}
-	manpower=250000
+	manpower=500000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
