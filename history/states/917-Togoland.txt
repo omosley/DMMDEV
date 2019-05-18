@@ -1,6 +1,6 @@
 state={
 	id=917
-	name="Togoland"
+	name="STATE_917"
 	provinces={
 		1951 12843 
 		
