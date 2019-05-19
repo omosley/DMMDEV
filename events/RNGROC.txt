@@ -11,7 +11,6 @@ country_event = {
 	desc = natchina.1.d
 	picture = GFX_report_event_jingwei
 
-	is_triggered_only = yes
 	fire_only_once = yes
 
 	option = {
@@ -71,14 +70,17 @@ country_event = {
 
 	trigger = {
 		tag = RRC
-		date > 2004.2.20
+		date > 2004.1.20
+		date < 2004.2.16
+		#date > 1936.1.20
+		#date < 1936.2.16
 		has_country_leader = {
 			name = "Wang Wenying"
 			ruling_only = yes
 		}
 	}
 	mean_time_to_happen = {
-		days = 25
+		days = 1
 	}
 	fire_only_once = yes
 
@@ -107,82 +109,11 @@ country_event = {
 		#		}
 			RRC = {
 				country_event = {
-					id = rrcdom.0
-				}
-				country_event = {
-					id = rrcdom.1
-					days = 1
+					id = natchina.5
+					days = 35
 				}
 			}
-			set_country_flag = rrc_wang_dead
-			remove_ideas = RRC_entry_garrison_pleased
-			if = {
-			limit = { RRC = { NOT = { has_completed_national_focus = { CHI_anewpolicyforchina } } } }
 			complete_national_focus = CHI_anewpolicyforchina
-			else = {}
-			}
-			if = {
-				limit = {
-					AND = {
-						WEA = {
-							exists = yes
-							is_subject = no
-						}
-						754 = {
-							NOT = {
-								is_owned_and_controlled_by = WEA
-							}
-							is_owned_and_controlled_by = RRC
-						}
-						755 = {
-							is_owned_and_controlled_by = WEA
-						}
-					}
-				}
-				WEA = {
-					country_event = {
-						id = wea.2
-						days = 2
-					} 
-				}
-				else = {
-
-				}
-			}
-			if = {
-				limit = {
-					AND = {
-						MEN = {
-							exists = yes
-							NOT = { is_subject_of = RRC }
-						}
-						746 = {
-							NOT = {
-								is_owned_and_controlled_by = MEN
-							}
-							is_owned_and_controlled_by = RRC
-						}
-						854 = {
-							NOT = {
-								is_owned_and_controlled_by = MEN
-							}
-							is_owned_and_controlled_by = RRC
-						}
-						621 = {
-							is_owned_and_controlled_by = MEN
-						}
-					}
-				}
-				MEN = {
-					country_event = {
-						id = men.2
-						days = 6
-					} 
-				}
-				else = {
-
-				}
-			}
 		}
 	}
 }
@@ -1619,77 +1550,3 @@ country_event = {
 	#	}
 	#}
 }
-country_event = { #who should we kowtow to?
-	id = natchina.19
-	title = natchina.19.t
-	desc = natchina.19.d
-	#picture =
-	fire_only_once = yes
-	is_triggered_only = yes
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = natchina.19.a
-		hidden_effect = {
-		set_country_flag = rrc_wenying_japan_priority
-		}
-	}
-	option = {
-		name = natchina.19.b
-		hidden_effect = {
-		set_country_flag = rrc_wenying_liu_priority
-		}
-	}
-}
-country_event = { #General & Geriatric
-	id = natchina.20
-	title = natchina.20.t
-	desc = natchina.20.d
-	#picture =
-	fire_only_once = yes
-	is_triggered_only = yes
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = natchina.20.a
-		add_ideas = RRC_entry_garrison_pleased
-	}
-}
-country_event = { #The Northwest awakes
-	id = natchina.21
-	title = natchina.21.t
-	desc = natchina.21.d
-	#picture =
-	fire_only_once = yes
-	is_triggered_only = yes
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = natchina.21.a
-		add_political_power = -25
-		add_stability = -0.05
-	}
-}
-country_event = { #Mogolia Seizes Borderlands
-	id = natchina.22
-	title = natchina.22.t
-	desc = natchina.22.d
-	#picture =
-	fire_only_once = yes
-	is_triggered_only = yes
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = natchina.22.a
-		add_political_power = -50
-		add_stability = -0.07
-	}
-} 

@@ -14,20 +14,3 @@ RRC_nanjing_garrison_meter = {
 				}
 		}
 }
-RRC_debug_meter = {
-		RRC_debug = {
-				allowed = { always = yes }
-				icon = generic_nationalism
-				available = {
-					country_exists = RRC
-				}
-				visible = {
-					has_country_flag = DMM_debug_gui
-				}
-				cost = 60
-				complete_effect = {
-						country_event = china_reform.1
-						add_political_power = -50
-				}
-		}
-}

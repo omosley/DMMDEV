@@ -1,5 +1,3 @@
-﻿l_english:
+﻿L_english:
 RRC_nanjing_garrison_meter:0 "Reforming the Country"
-RRC_nanjing_garrison_meter_desc:1 "China is in dire straits by 2004. The military is little more than an auxiliary force to the IJA, the navy is non-existant and the airforce is on a level that could be called "advanced"...for the 1930s.\nTo call the economy crippled is euphemistic, and the IJA Nanjing Garrison perpetually holds a knife to the Government's throat.\n\n Current §YMood§! of the Garrison: [Root.garrison_anger]"
-RRC_debug_meter:0 "DMM RRC DEBUG METER"
-RRC_debug_meter_desc:0 "RRC Debug Meter:\nLiu Support: §Y[?Root.rrc_liu_support]§!\nWang Support: §Y[?Root.rrc_wang_support]§!\nKoichi Anger: §Y[?Root.rrc_koichi_anger]§!\nInstability: §Y[?Root.rrc_instability]§!\nLiu Health: §Y[?Root.liu_health]§!\nLiu Stamina: §Y[?Root.liu_stamina]§!\nWang Health: §Y[?Root.wang_health]§!\nWang Stamina: §Y[?Root.wang_stamina]§!\nIterative Integer Counter: §Y[?Root.integer_counter]§!."
+RRC_nanjing_garrison_meter_desc:1 "China is in dire straits by 2004. The military is little more than an auxiliary force to the IJA, the navy is non-existant and the airforce is on a level that could be called "advanced"...for the 1930s.\nTo call the economy crippled is euphemistic, and the IJA Nanjing Garrison perpetually holds a knife to the Government's throat.\n\n Current §YMood§! of the Garrison: [Root.garrison_anger.GetValue]"
