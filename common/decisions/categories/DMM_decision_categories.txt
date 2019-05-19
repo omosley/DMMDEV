@@ -8,3 +8,11 @@ RRC_nanjing_garrison_meter = {
 			has_country_flag = loyal_soldier_nanjing_chosen
 	}
 }
+RRC_debug_meter = {
+	icon = infiltration
+	picture = GFX_decision_cat_picture_chi_infiltration
+
+	visible = {
+			always = yes
+	}
+}
