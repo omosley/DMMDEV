@@ -1,0 +1,288 @@
+#################
+# RNGROC internal events
+#################
+
+add_namespace = rrcdom
+
+country_event = { #Setup
+	id = rrcdom.0
+	title = rrcdom.0.t
+	desc = rrcdom.0.d
+	#picture = GFX_report_event_jingwei
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+
+	option = {
+		name = rrcdom.0.a
+		set_variable = {
+			var = rrc_instability
+			value = 0
+		}
+		set_variable = {
+			var = rrc_koichi_anger
+			value = 0
+		}
+		set_variable = {
+			var = rrc_liu_support
+			value = 0
+		}
+		set_variable = {
+			var = rrc_wang_support
+			value = 0
+		}
+	}
+}
+
+country_event = { #The Assembly hears Wang Jiebing
+	id = rrcdom.1
+	title = rrcdom.1.t
+	desc = rrcdom.1.d
+	#picture = GFX_report_event_jingwei
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #Wang speaks, Assembly orderly
+		name = rrcdom.1.a
+		hidden_effect = {
+			add_to_variable = {	rrc_wang_support = 1 }
+			country_event = {
+				id = rrcdom.2
+				days = 1
+			}
+		}
+	}
+	option = { #Wang speaks, interrupted by Youth Party
+		name = rrcdom.1.b
+		hidden_effect = {
+			add_to_variable = {	rrc_liu_support = 1 }
+			add_to_variable = { rrc_instability = 2 }
+			add_to_variable = { rrc_koichi_anger = 1 }
+			country_event = {
+				id = rrcdom.9
+				days = 1
+			}
+		}
+	}
+	option = { #Liu openly proclaims Assembly not representative, calls for public forum, leaves assembly
+		name = rrcdom.1.c
+		hidden_effect = {
+			add_to_variable = { rrc_liu_support = 2 }
+			add_to_variable = { rrc_instability = 3 }
+			add_to_variable = { rrc_koichi_anger = 3}
+		}
+	}
+}
+
+country_event = { #Wang speaks uninterrupted, content of speech
+	id = rrcdom.2
+	title = rrcdom.2.t
+	desc = rrcdom.2.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #Wang promises peace, rebuilding and anti-communism
+		name = rrcdom.2.a 
+		hidden_effect = {
+			random_list = {
+				25 = { #Wang pleases the assembly
+					country_event = {
+						id = rrcdom.3
+						days = 1
+					}
+				}
+				65 = { #Wang does not convince the assembly - it is too cliché
+					country_event = {
+						id = rrcdom.4
+						days = 1
+					}
+				}
+				10 = { #Pandemonium in the crowd - call Wang shallow and uncreative, insults
+					country_event = {
+						id = rrcdom.5
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	option = { #Wang promises reform and recentralization
+		name = rrcdom.2.b
+		hidden_effect = {
+			random_list = {
+				35 = { #Wang is cheered on by the assembly
+					country_event = {
+						id = rrcdom.6
+						days = 1
+					}
+				}
+				55 = { #The assembly is content with Wang's speech
+					country_event = {
+						id = rrcdom.7
+						days = 1
+					}
+				}
+				10 = {
+					country_event = { #The Youth Party harshly criticises Wang for his centralization plans
+						id = rrcdom.8
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rrcdom.3
+	title = rrcdom.3.t
+	desc = rrcdom.3.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = rrcdom.3.a
+		hidden_effect = {
+			add_to_variable = { rrc_wang_support = 2 }
+			subtract_from_variable = { rrc_koichi_anger = 1 }
+		}
+	}
+}
+
+country_event = {
+	id = rrcdom.4
+	title = rrcdom.4.t
+	desc = rrcdom.4.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = rrcdom.4.a
+		hidden_effect = {
+			add_to_variable = { rrc_instability = 1 }
+		}
+	}
+}
+
+country_event = {
+	id = rrcdom.5
+	title = rrcdom.5.t
+	desc = rrcdom.5.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = rrcdom.5.a
+		hidden_effect = {
+			subtract_from_variable = { rrc_wang_support = 2 }
+			add_to_variable = { rrc_koichi_anger = 1 }
+			add_to_variable = { rrc_liu_support = 1 }
+			add_to_variable = { rrc_instability = 3 }
+		}
+	}
+}
+
+country_event = {
+	id = rrcdom.6
+	title = rrcdom.6.t
+	desc = rrcdom.6.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = rrcdom.6.a
+		hidden_effect = {
+			subtract_from_variable = { rrc_liu_support = 1 }
+			add_to_variable = { rrc_koichi_anger = 3 }
+			add_to_variable = { rrc_wang_support = 2 }
+			subtract_from_variable = { rrc_instability = 1 }
+		}
+	}
+}
+
+country_event = {
+	id = rrcdom.7
+	title = rrcdom.7.t
+	desc = rrcdom.7.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = rrcdom.7.a
+		hidden_effect = {
+			add_to_variable = { rrc_koichi_anger = 1 }
+			add_to_variable = { rrc_wang_support = 1 }
+		}
+	}
+}
+
+country_event = {
+	id = rrcdom.8
+	title = rrcdom.8.t
+	desc = rrcdom.8.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = rrcdom.8.a
+		hidden_effect = {
+			add_to_variable = { rrc_koichi_anger = 2 }
+			add_to_variable = { rrc_liu_support = 1 }
+			add_to_variable = { rrc_instability = 2 }
+		}
+	}
+}
+
+country_event = {
+	id = rrcdom.9
+	title = rrcdom.9.t
+	desc = rrcdom.9.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #the assembly calms down again
+		name = rrcdom.9.a
+		hidden_effect = {
+			country_event = {
+				id = rrcdom.2
+				days = 1
+			}
+		}
+	}
+	option = { #shouting match between liu and wang
+		name = rrcdom.9.b
+		hidden_effect = {
+			set_country_flag = DMM_debug_gui
+			set_variable = {
+				var = liu_health
+				value = 10
+			}
+			set_variable = {
+				var = liu_stamina
+				value = 10
+			}
+			set_variable = {
+				var = wang_health
+				value = 10
+			}
+			set_variable = {
+				var = wang_stamina
+				value = 10
+			}
+			country_event = {
+				id = rrcshout.1
+				days = 1
+			}
+		}
+	}
+}
