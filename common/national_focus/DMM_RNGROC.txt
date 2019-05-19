@@ -15,7 +15,7 @@ focus_tree = {
     	icon = GFX_focus_generic_self_management
         x = 4
         y = 1
-        cost = 1
+        cost = 2
         available_if_capitulated = yes 
         prerequisite = { focus = CHI_anewpolicyforchina }
         ai_will_do = { 
@@ -31,7 +31,14 @@ focus_tree = {
 			}
  		}
         completion_reward = {
-
+            add_political_power = 50
+            custom_effect_tooltip = rrc_wenying_entry_tt
+            hidden_effect = {
+                country_event = {
+                    id = natchina.19
+                    days = 1
+                }
+            }
         }
     }
     focus = {
@@ -39,7 +46,7 @@ focus_tree = {
     	icon = GFX_focus_chi_collaboration_with_the_japanese
         x = 3
         y = 2
-        cost = 1
+        cost = 2
         available_if_capitulated = yes 
         prerequisite = { focus = CHI_a_firm_hand }
         ai_will_do = { 
@@ -53,9 +60,16 @@ focus_tree = {
 				name = "Wang Wenying"
 				ruling_only = yes
 			}
+            has_country_flag = rrc_wenying_japan_priority
  		}
         completion_reward = {
-
+            custom_effect_tooltip = rrc_wenying_japan_talk_tt
+            hidden_effect = {
+                country_event = {
+                    id = natchina.20
+                    days = 1
+                }
+            }
         }
     }
     focus = {
@@ -63,7 +77,7 @@ focus_tree = {
     	icon = GFX_focus_generic_china1
         x = 5
         y = 2
-        cost = 1
+        cost = 2
         available_if_capitulated = yes 
         prerequisite = { focus = CHI_a_firm_hand }
         ai_will_do = { 
@@ -77,6 +91,7 @@ focus_tree = {
 				name = "Wang Wenying"
 				ruling_only = yes
 			}
+            has_country_flag = rrc_wenying_liu_priority
  		}
         completion_reward = {
 
