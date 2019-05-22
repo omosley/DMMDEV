@@ -1,9 +1,10 @@
+
 state={
 	id=94
 	name="STATE_94"
 
 	history={
-		owner = UKR
+		owner = GER
 		buildings = {
 			infrastructure = 4
 
@@ -11,11 +12,12 @@ state={
 		victory_points = {
 			3392 1 
 		}
-		add_core_of = UKR
+		add_core_of = GER
+
 	}
 
 	provinces={
-		535 560 3256 3309 3392 3496 3556 6280 6306 6415 6546 6579 9520 11285 11503 11528 
+		560 3256 3309 3392 3556 6280 6306 6415 6579 11285 11528 
 	}
 	manpower=1232200
 	buildings_max_level_factor=1.000
