@@ -852,3 +852,53 @@ ALG = {
 	color = rgb { 65  95  75 }
 	color_ui = rgb { 65  95  75 }
 }
+
+TRI = {
+	color = rgb { 83  63  120 }
+	color_ui = rgb { 83  63  120 }
+}
+
+NAG = {
+	color = rgb { 61  159  188 }
+	color_ui = rgb { 61  159  188 }
+}
+
+MNI = {
+	color = rgb { 22  88  28 }
+	color_ui = rgb { 22  88  28 }
+}
+
+LUS = {
+	color = rgb { 114  135  69 }
+	color_ui = rgb { 114  135  69 }
+}
+
+CAL = {
+	color = rgb { 139  82  65 }
+	color_ui = rgb { 139  82  65 }
+}
+
+BOD = {
+	color = rgb { 247 91  96 }
+	color_ui = rgb { 247 91  96 }
+}
+
+CHT = {
+	color = rgb { 38  94  41 }
+	color_ui = rgb { 38  94  41 }
+}
+
+BEN = {
+	color = rgb { 24  157  228 }
+	color_ui = rgb { 24  157  228 }
+}
+
+AZA= {
+	color = rgb { 9  15  47 }
+	color_ui = rgb { 9  15  47 }
+}
+
+ASS = {
+	color = rgb { 168  17  9 }
+	color_ui = rgb { 168  17  9 }
+}
