@@ -902,3 +902,48 @@ ASS = {
 	color = rgb { 168  17  9 }
 	color_ui = rgb { 168  17  9 }
 }
+
+TAJ = {
+	color = rgb { 51 102 0 }
+	color_ui = rgb { 51 102 0 }
+}
+
+PAM = {
+	color = rgb { 0 128 0 }
+	color_ui = rgb { 0 128 0 }
+}
+
+KYR = {
+	color = rgb { 180 70 0 }
+	color_ui = rgb { 180 70 0 }
+}
+
+FGH = {
+	color = rgb { 0 153 181 }
+	color_ui = rgb { 0 153 181 }
+}
+
+TRK = {
+	color = rgb { 243 144 5 }
+	color_ui = rgb { 243 144 5 }
+}
+
+RTK = {
+	color = rgb { 234 24 19 }
+	color_ui = rgb { 234 24 19 }
+}
+
+CDZ = {
+	color = rgb { 0 132 61 }
+	color_ui = rgb { 0 132 61 }
+}
+
+NFT = {
+	color = rgb { 255 255 1 }
+	color_ui = rgb { 255 255 1 }
+}
+
+KVA = {
+	color = rgb { 154 205 50 }
+	color_ui = rgb { 154 205 50 }
+}
