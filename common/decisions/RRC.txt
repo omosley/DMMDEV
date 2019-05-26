@@ -31,3 +31,20 @@ RRC_debug_meter = {
 				}
 		}
 }
+RRC_politics_info = {
+		RRC_politics = {
+				allowed = { always = yes }
+				icon = generic_nationalism
+				available = {
+					country_exists = RRC
+				}
+				visible = {
+					always = yes
+				}
+				cost = 60
+				complete_effect = {
+						country_event = china_reform.1
+						add_political_power = -50
+				}
+		}
+}
