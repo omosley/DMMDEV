@@ -874,7 +874,7 @@ focus = {
  }
  focus = { 
     id = CHI_establish_the_facilities
-    icon = GFX_goal_generic_construct_mil_factory
+    icon = GFX_focus_rrc_liu_facilities
     x = 7
     y = 2
     cost = 10
@@ -1610,7 +1610,7 @@ focus = {
  }
  focus = { 
     id = CHI_rolles_lemma_and_the_laffer_curve
-    icon = GFX_goal_generic_consumer_goods
+    icon = GFX_focus_rrc_laffer_curve
     x = 16
     y = 4
     cost = 10

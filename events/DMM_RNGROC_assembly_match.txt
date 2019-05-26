@@ -803,11 +803,11 @@ country_event = {
 			limit = {
 				has_country_flag = rrc_shout_chose_liu
 			}
-			subtract_from_variable = { rrc_liu_support = 3 }
-			add_to_variable = { rrc_wang_support = 1 }
+			subtract_from_variable = { rrc_liu_support_increase = 3 }
+			add_to_variable = { rrc_wang_support_increase = 1 }
 		else = {
-			subtract_from_variable = { rrc_wang_support = 3 }
-			add_to_variable = { rrc_liu_support = 1 }
+			subtract_from_variable = { rrc_wang_support_increase = 3 }
+			add_to_variable = { rrc_liu_support_increase = 1 }
 		}
 		}
 		hidden_effect = {
@@ -815,6 +815,9 @@ country_event = {
 			id = rrcdom.2
 			days = 1
 		}
+		country_event = {
+				id = rrcrepeat.0
+			}
 		}
 	}
 }
@@ -831,11 +834,11 @@ country_event = {
 			limit = {
 				has_country_flag = rrc_shout_chose_liu
 			}
-			add_to_variable = { rrc_liu_support = 3 }
-			subtract_from_variable = { rrc_wang_support = 1 }
+			add_to_variable = { rrc_liu_support_increase = 3 }
+			subtract_from_variable = { rrc_wang_support_increase = 1 }
 		else = {
-			add_to_variable = { rrc_wang_support = 3 }
-			subtract_from_variable = { rrc_liu_support = 1 }
+			add_to_variable = { rrc_wang_support_increase = 3 }
+			subtract_from_variable = { rrc_liu_support_increase = 1 }
 		}
 		}
 		hidden_effect = {
@@ -843,6 +846,9 @@ country_event = {
 			id = rrcdom.2
 			days = 1
 		}
+		country_event = {
+				id = rrcrepeat.0
+			}
 		}
 	}
 }

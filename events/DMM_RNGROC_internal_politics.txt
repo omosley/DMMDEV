@@ -47,7 +47,10 @@ country_event = { #The Assembly hears Wang Jiebing
 	option = { #Wang speaks, Assembly orderly
 		name = rrcdom.1.a
 		hidden_effect = {
-			add_to_variable = {	rrc_wang_support = 1 }
+			add_to_variable = {	rrc_wang_support_increase = 1 }
+			country_event = {
+				id = rrcrepeat.0
+			}
 			country_event = {
 				id = rrcdom.2
 				days = 1
@@ -57,7 +60,10 @@ country_event = { #The Assembly hears Wang Jiebing
 	option = { #Wang speaks, interrupted by Youth Party
 		name = rrcdom.1.b
 		hidden_effect = {
-			add_to_variable = {	rrc_liu_support = 1 }
+			add_to_variable = {	rrc_liu_support_increase = 1 }
+			country_event = {
+				id = rrcrepeat.0
+			}
 			add_to_variable = { rrc_instability = 2 }
 			add_to_variable = { rrc_koichi_anger = 1 }
 			country_event = {
@@ -69,7 +75,10 @@ country_event = { #The Assembly hears Wang Jiebing
 	option = { #Liu openly proclaims Assembly not representative, calls for public forum, leaves assembly
 		name = rrcdom.1.c
 		hidden_effect = {
-			add_to_variable = { rrc_liu_support = 2 }
+			add_to_variable = { rrc_liu_support_increase = 2 }
+			country_event = {
+				id = rrcrepeat.0
+			}
 			add_to_variable = { rrc_instability = 3 }
 			add_to_variable = { rrc_koichi_anger = 3}
 		}
@@ -107,19 +116,23 @@ country_event = { #Wang speaks uninterrupted, content of speech
 					}
 				}
 			}
+			country_event = {
+				id = rrcdom.10
+				days = 5
+			}
 		}
 	}
 	option = { #Wang promises reform and recentralization
 		name = rrcdom.2.b
 		hidden_effect = {
 			random_list = {
-				35 = { #Wang is cheered on by the assembly
+				55 = { #Wang is cheered on by the assembly
 					country_event = {
 						id = rrcdom.6
 						days = 1
 					}
 				}
-				55 = { #The assembly is content with Wang's speech
+				45 = { #The assembly is content with Wang's speech
 					country_event = {
 						id = rrcdom.7
 						days = 1
@@ -131,6 +144,10 @@ country_event = { #Wang speaks uninterrupted, content of speech
 						days = 1
 					}
 				}
+			}
+			country_event = {
+				id = rrcdom.10
+				days = 5
 			}
 		}
 	}
@@ -147,8 +164,11 @@ country_event = {
 	option = {
 		name = rrcdom.3.a
 		hidden_effect = {
-			add_to_variable = { rrc_wang_support = 2 }
+			add_to_variable = { rrc_wang_support_increase = 2 }
 			subtract_from_variable = { rrc_koichi_anger = 1 }
+			country_event = {
+				id = rrcrepeat.0
+			}
 		}
 	}
 }
@@ -180,10 +200,13 @@ country_event = {
 	option = {
 		name = rrcdom.5.a
 		hidden_effect = {
-			subtract_from_variable = { rrc_wang_support = 2 }
+			subtract_from_variable = { rrc_wang_support_increase = 2 }
 			add_to_variable = { rrc_koichi_anger = 1 }
-			add_to_variable = { rrc_liu_support = 1 }
+			add_to_variable = { rrc_liu_support_increase = 1 }
 			add_to_variable = { rrc_instability = 3 }
+			country_event = {
+				id = rrcrepeat.0
+			}
 		}
 	}
 }
@@ -199,10 +222,13 @@ country_event = {
 	option = {
 		name = rrcdom.6.a
 		hidden_effect = {
-			subtract_from_variable = { rrc_liu_support = 1 }
+			subtract_from_variable = { rrc_liu_support_increase = 1 }
 			add_to_variable = { rrc_koichi_anger = 3 }
-			add_to_variable = { rrc_wang_support = 2 }
+			add_to_variable = { rrc_wang_support_increase = 2 }
 			subtract_from_variable = { rrc_instability = 1 }
+			country_event = {
+				id = rrcrepeat.0
+			}
 		}
 	}
 }
@@ -219,7 +245,10 @@ country_event = {
 		name = rrcdom.7.a
 		hidden_effect = {
 			add_to_variable = { rrc_koichi_anger = 1 }
-			add_to_variable = { rrc_wang_support = 1 }
+			add_to_variable = { rrc_wang_support_increase = 1 }
+			country_event = {
+				id = rrcrepeat.0
+			}
 		}
 	}
 }
@@ -236,8 +265,11 @@ country_event = {
 		name = rrcdom.8.a
 		hidden_effect = {
 			add_to_variable = { rrc_koichi_anger = 2 }
-			add_to_variable = { rrc_liu_support = 1 }
+			add_to_variable = { rrc_liu_support_increase = 1 }
 			add_to_variable = { rrc_instability = 2 }
+			country_event = {
+				id = rrcrepeat.0
+			}
 		}
 	}
 }
@@ -282,6 +314,409 @@ country_event = {
 			country_event = {
 				id = rrcshout.1
 				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #liu holds a public rally
+	id = rrcdom.10
+	title = rrcdom.10.t
+	desc = rrcdom.10.d
+	is_triggered_only = yes
+
+	option = { #rally goes uninterrupted
+		name = rrcdom.10.a
+		hidden_effect = {
+			add_to_variable = { rrc_liu_support_increase = 2 }
+			add_to_variable = { rrc_koichi_anger = 1 }
+			subtract_from_variable = { rrc_instability = 1 }
+			country_event = {
+				id = rrcdom.11
+				days = 5
+			}
+			country_event = {
+				id = rrcrepeat.0
+			}
+		}
+	}
+	option = { #rally broken up by police
+		name = rrcdom.10.b
+		hidden_effect = {
+			add_to_variable = { rrc_liu_support_increase = -1 }
+			add_to_variable = { rrc_koichi_anger = -1 }
+			add_to_variable = { rrc_instability = 1 }
+			country_event = {
+				id = rrcdom.11
+				days = 5
+			}
+			country_event = {
+				id = rrcrepeat.0
+			}
+		}
+	}
+}
+
+country_event = { #the ministries declare for wang
+	id = rrcdom.11
+	title = rrcdom.11.t
+	desc = rrcdom.11.d
+	is_triggered_only = yes
+
+	option = { #ok
+		name = rrcdom.11.a
+		hidden_effect = {
+			add_to_variable = { rrc_wang_support_increase = 2 }
+			country_event = {
+				id = rrcdom.12
+				days = 5
+			}
+			country_event = {
+				id = rrcrepeat.0
+			}
+		}
+	}
+}
+
+country_event = { #the army brass takes a side
+	id = rrcdom.12
+	title = rrcdom.12.t
+	desc = rrcdom.12.d
+	is_triggered_only = yes
+
+	option = { #wang
+		name = rrcdom.12.a
+		hidden_effect = {
+			add_to_variable = { rrc_wang_support_increase = 2 }
+			country_event = {
+				id = rrcdom.13
+				days = 5
+			}
+			country_event = {
+				id = rrcrepeat.0
+			}
+		}
+	}
+
+	option = { #liu
+		name = rrcdom.12.b
+		hidden_effect = {
+			add_to_variable = { rrc_liu_support_increase = 2 }
+			add_to_variable = { rrc_instability = 1 }
+			country_event = {
+				id = rrcdom.13
+				days = 5
+			}
+			country_event = {
+				id = rrcrepeat.0
+			}
+		}
+	}
+}
+
+country_event = { #evaluate
+	id = rrcdom.13
+	title = rrcdom.13.t
+	desc = rrcdom.13.d
+	hidden = yes
+	is_triggered_only = yes
+
+	option = { #government collapse?
+		name = rrcdom.13.a
+		hidden_effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = rrc_instability
+						value = 7
+						compare = greater_than_or_equals
+					}
+				}
+				country_event = {
+						id = rrcdom.14 #collapse
+						days = 2
+					}
+				else_if = {
+					limit = { check_variable = {
+						var = rrc_koichi_anger
+						value = 5
+						compare = greater_than_or_equals
+					} }
+					country_event = {
+						id = rrcdom.15 #koichi steps in
+						days = 2
+					}
+				}
+				else_if = {
+					limit = { 
+						check_variable = {
+							var = rrc_wang_support_div
+							value = rrc_liu_support_div
+							compare = greater_than
+						}
+					}
+					country_event = {
+						id = rrcdom.16 #wang is inaugurated
+						days = 2
+					}
+					random_list = {
+						70 = {
+							country_event = {
+								id = rrcdom.17 #liu arrested
+								days = 3
+							}
+						}
+						30 = {
+							country_event = {
+								id = rrcdom.18 #liu flees
+								days = 3
+							}
+							set_country_flag = rrc_liu_fled_interior
+						}
+					}
+				}
+				else_if = {
+					limit = { 
+						check_variable = {
+							var = rrc_liu_support_div
+							value = rrc_wang_support_div
+							compare = greater_than_or_equals
+						}
+					}
+					country_event = {
+						id = rrcdom.20 #wang shot
+						days = 4
+					}
+					country_event = {
+						id = rrcdom.19 #liu seizes power
+						days = 2
+					}
+					set_country_flag = rrc_wang_assasinated
+				}
+			}
+		}
+	}
+}
+
+country_event = { #collapse
+	id = rrcdom.14
+	title = rrcdom.14.t
+	desc = rrcdom.14.d
+	is_triggered_only = yes
+
+	option = { #ok
+		name = rrcdom.14.a
+		hidden_effect = {
+		swap_ideas = {
+			remove_idea = RRC_political_struggle
+			add_idea = RRC_political_struggle_2
+		}
+		add_political_power = -250
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = social_democrat
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.25
+		}
+		create_country_leader = {
+			name = "National Council of Revolution"
+			desc = "POLITICS_NCRROC_DESC"
+			picture = "gfx/leaders/RRC/Portrait_RNGROC_NCRROC.dds"
+			expire = "2065.1.1"
+			ideology = social_democracy
+			traits = {
+				#need appropriate trait
+			}
+		}
+		country_event = {
+			id = natchina.8
+		}
+		}
+	}
+}
+
+country_event = { #koichi steps in
+	id = rrcdom.15
+	title = rrcdom.15.t
+	desc = rrcdom.15.d
+	is_triggered_only = yes
+
+	option = { #ok
+		name = rrcdom.15.a
+		hidden_effect = {
+			add_political_power = -200
+			swap_ideas = {
+				remove_idea = RRC_political_struggle
+				add_idea = RRC_political_struggle_2
+			}
+			country_event = {
+				id = natchina.6
+				days = 90
+			}
+			complete_national_focus = CHI_amostloyalgovernment
+			set_politics = {
+				ruling_party = fascist
+			}
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "Kōichi Isobe"
+				desc = "POLITICS_KOICHI_ISOBE_DESC"
+				picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+				expire = "2065.1.1"
+				ideology = hakko_ichiu
+				traits = {
+					#need appropriate trait
+				}
+			}
+		}
+	}
+}
+
+country_event = { #wang inaugurated
+	id = rrcdom.16
+	title = rrcdom.16.t
+	desc = rrcdom.16.d
+	is_triggered_only = yes
+
+	option = { #ok
+		name = rrcdom.16.a
+		hidden_effect = {
+			swap_ideas = {
+				remove_idea = RRC_political_struggle
+				add_idea = RRC_political_struggle_2
+			}
+			country_event = {
+				id = natchina.6
+				days = 40
+			}
+			country_event = {
+				id = natchina.7
+				days = 7
+			}
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "Wang Jiebing"
+				desc = "POLITICS_WANG_JIEBING_DESC"
+				picture = "gfx/leaders/RRC/Portrait_RNGROC_Wang_Jiebing.dds"
+				expire = "2065.1.1"
+				ideology = military_junta
+				traits = {
+					#need appropriate trait
+				}
+			}
+		}
+	}
+}
+
+country_event = { #liu captured
+	id = rrcdom.17
+	title = rrcdom.17.t
+	desc = rrcdom.17.d
+	is_triggered_only = yes
+
+	option = {
+		name = rrcdom.17.a
+		add_political_power = 50
+		hidden_effect = {
+			create_country_leader = {
+				name = "Leadership under Arrest"
+				desc = "POLITICS_NONE_DESC"
+				#picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+				expire = "2065.1.1"
+				ideology = nationalist
+				traits = {
+					#need appropriate trait
+				}
+			}
+			set_popularity = {
+				ideology = reactionary
+				popularity = 0.02
+			}
+		}
+	}
+}
+
+country_event = { #liu escapes
+	id = rrcdom.18
+	title = rrcdom.18.t
+	desc = rrcdom.18.d
+	is_triggered_only = yes
+
+	option = {
+		name = rrcdom.18.a
+		add_political_power = -25
+		hidden_effect = {
+			create_country_leader = {
+				name = "Underground Operations"
+				desc = "POLITICS_NONE_DESC"
+				#picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+				expire = "2065.1.1"
+				ideology = nationalist
+				traits = {
+					#need appropriate trait
+				}
+			}
+			set_popularity = {
+				ideology = reactionary
+				popularity = 0.07
+			}
+		}
+	}
+}
+
+country_event = { #liu seizes power
+	id = rrcdom.19
+	title = rrcdom.19.t
+	desc = rrcdom.19.d
+	is_triggered_only = yes
+
+	option = {
+		hidden_effect = {
+		name = rrcdom.19.a
+		swap_ideas = {
+			remove_idea = RRC_political_struggle
+			add_idea = RRC_political_struggle_2
+		}
+		country_event = {
+			id = natchina.6
+			days = 70
+		}
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = reactionary
+		}
+		load_focus_tree = RNGROC_liu_focus
+		complete_national_focus = CHI_nofutureforachinesestate
+		}
+	}
+}
+
+country_event = { #a shot in the dark
+	id = rrcdom.20
+	title = rrcdom.20.t
+	desc = rrcdom.20.d
+	is_triggered_only = yes
+
+	option = {
+		name = rrcdom.20.a
+		add_political_power = 50
+		hidden_effect = {
+			create_country_leader = {
+				name = "Leadership Under Arrest"
+				desc = "POLITICS_NONE_DESC"
+				#picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+				expire = "2065.1.1"
+				ideology = military_junta
+				traits = {
+					#need appropriate trait
+				}
+			}
+			set_popularity = {
+				ideology = authoritarian
+				popularity = 0.05
 			}
 		}
 	}

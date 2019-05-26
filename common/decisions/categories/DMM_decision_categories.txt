@@ -16,3 +16,11 @@ RRC_debug_meter = {
 			always = yes
 	}
 }
+RRC_politics_info = {
+	icon = infiltration
+	picture = GFX_decision_cat_picture_chi_infiltration
+
+	visible = {
+			always = yes
+	}
+}

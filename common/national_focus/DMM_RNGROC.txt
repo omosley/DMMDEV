@@ -123,7 +123,7 @@ focus_tree = {
     }
     focus = {
     	id = CHI_reassure_the_garrison
-    	icon = GFX_goal_generic_improve_relations
+    	icon = GFX_focus_rrc_garrison_moves
         x = 3
         y = 3
         cost = 1

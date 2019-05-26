@@ -1,0 +1,51 @@
+add_namespace = rrcrepeat
+
+country_event = {
+	id = rrcrepeat.0
+	title = rrcrepeat.0.t
+	desc = rrcrepeat.0.d
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = rrcrepeat.0.a
+		set_variable = { rrc_divisor = 0 }
+		set_variable = { rrc_wang_support_div = 0 }
+		set_variable = { rrc_liu_support_div = 0 }
+		add_to_variable = { rrc_wang_support = rrc_wang_support_increase }
+		add_to_variable = { rrc_liu_support = rrc_liu_support_increase }
+		if = {
+			limit = {
+				check_variable = { rrc_wang_support < 0 }
+			}
+			set_variable = {
+				rrc_wang_support = 0
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { rrc_liu_support < 0 }
+			}
+			set_variable = {
+				rrc_liu_support = 0
+			}
+		}
+		set_variable = { rrc_liu_support_increase = 0 }
+		set_variable = { rrc_wang_support_increase = 0 }
+		set_variable = { rrc_wang_support_div = rrc_wang_support }
+		set_variable = { rrc_liu_support_div = rrc_liu_support }
+		add_to_variable = { rrc_divisor = rrc_wang_support }
+		add_to_variable = { rrc_divisor = rrc_liu_support }
+		if = {
+			limit = {
+				check_variable = { rrc_divisor = 0 }
+			}
+			set_variable = { rrc_divisor = 1 }
+		}
+		divide_variable = { rrc_wang_support_div = rrc_divisor }
+		divide_variable = { rrc_liu_support_div = rrc_divisor }
+		#multiply_variable = { rrc_wang_support_div = 100 }
+		#multiply_variable = { rrc_liu_support_div = 100 }
+	}
+}

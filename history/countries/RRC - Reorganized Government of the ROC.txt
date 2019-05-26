@@ -95,6 +95,56 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Leadership in Exile"
+	desc = "POLITICS_NONE_DESC"
+	#picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+	expire = "2065.1.1"
+	ideology = social_liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Underground Operations"
+	desc = "POLITICS_NONE_DESC"
+	#picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+	expire = "2065.1.1"
+	ideology = democratic_socialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Underground Operations"
+	desc = "POLITICS_NONE_DESC"
+	#picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+	expire = "2065.1.1"
+	ideology = agrarian_communism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Zaibatsu"
+	desc = "POLITICS_NONE_DESC"
+	#picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+	expire = "2065.1.1"
+	ideology = corporate_rule
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "National Salvation Council"
+	desc = "POLITICS_NONE_DESC"
+	#picture = "gfx/leaders/RRC/Portrait_RNGROC_Koichi_Isobe.dds"
+	expire = "2065.1.1"
+	ideology = social_democracy
+	traits = {
+	}
+}
+
+create_country_leader = {
 			name = "Liu Zhongjing"
 			desc = "POLITICS_LIU_ZHONGJING_DESC"
 			picture = "gfx/leaders/RRC/Portrait_RNGROC_Liu_Zhongjing.dds"
