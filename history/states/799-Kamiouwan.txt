@@ -11,15 +11,14 @@ state={
 			industrial_complex = 2
 
 		}
-
 		victory_points = {
-			7529 1		# Kamiouwan a.k.a Hollandia a.k.a Jayapura	
+			7529 1 
 		}
 
 	}
 
 	provinces={
-		1546 4509 4552 7529 10369 10396 12371 13253 13386 13388 13392 13393 
+		1546 4509 4552 7529 10369 10396 12371 13386 13388 13392 13393 
 	}
 	manpower=7500000
 	buildings_max_level_factor=1.000

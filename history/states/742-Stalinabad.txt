@@ -1,19 +1,20 @@
+
 state={
 	id=742
 	name="STATE_742"
 
 	history={
-		owner = SOV
+		owner = TAJ
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = SOV
+		add_core_of = TAJ
 
 	}
 
 	provinces={
-		4542 7224 8027 10417 12218 12250 12430 12805 
+		1216 1384 1919 4542 7224 10205 12218 12250 12430 
 	}
 	manpower=230000
 	buildings_max_level_factor=1.000

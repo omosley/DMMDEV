@@ -3204,8 +3204,8 @@ rrcdom.4.a:0 "Too Bad."
 rrcdom.5.t:0 "Pandemonium on the Floor"
 rrcdom.5.d:0 "While Wang had hoped the old parole of 'Peace, Rebuilding, Anti-Communism' would win him favor with the Assembly, this attempt spectacularly backfires, when even the normally staunchly pro-Wang NDPROC back lines started openly criticizing him for offering 'only words, no solutions'. Soon, Wang was being insulted from all directions, but mostly from the Liuist PNR-YP bloc."
 rrcdom.5.a:0 "Qù sǐ, lǎorén"
-rrcdom.6.a:0 "The Assembly Cheers"
-rrcdom.6.t:0 "With Wang promising to finally take a course of Recentralizion and Rearmament, he seems to have won the heart of the Assembly, with even Liu Zhongjing shortly applauding before lightly scolding Wang for his centralization plans."
+rrcdom.6.t:0 "The Assembly Cheers"
+rrcdom.6.d:0 "With Wang promising to finally take a course of Recentralizion and Rearmament, he seems to have won the heart of the Assembly, with even Liu Zhongjing shortly applauding before lightly scolding Wang for his centralization plans."
 rrcdom.6.a:0 "A great start!"
 rrcdom.7.t:0 "The Assembly is Pleased"
 rrcdom.7.d:0 "Wang's assessment of China's problems and his strategies for problem solution were quite well received by the Assembly, with most politicians present, even some of the PNR-YP, applauding at the end of the speech. The large exception to this was, obviously, Liu Zhongjing, who sat silently, staring at Wang all throughout the speech."
@@ -3219,6 +3219,47 @@ rrcdom.9.d:0 "With Youth Party politicians interrupting Wang Jiebing's address, 
 rrcdom.9.a:0 "...and order is restored!"
 rrcdom.9.b:0 "...but Liu begins a shouting match with him!"
 
+rrcdom.10.t:0 "Liuist Rally in Nanjing"
+rrcdom.10.d:0 "With his popularity as high as ever among the common people, Liu Zhongjing has arrived to speak to a large crowd near the Mount Zhongshan Sun Yat-Sen Memorial Gardens. Obviously choosing the place for its connection to the Republic's father, Liu is prepared to deliver a great speech on the topic of the 'Institutional Weakness of Republican Authority'. There have already been reports of counter-protesters assembling in the direction of Houzaimen District, and National and Kempeitai police units standing by, cautiously watching the situation unfold. Now it all depends on what happens next..."
+rrcdom.10.a:0 "Liu is allowed to hold his speech"
+rrcdom.10.b:0 "The police violently break up the crowds"
+
+rrcdom.11.t:0 "The Ministries declare for Wang"
+rrcdom.11.d:0 "The Ministers of the RNGROC have always been creatures of its president, so it comes with no surprise that they have announced their support of his son, Wang Jiebing, today."
+rrcdom.11.a:0 "Unsurprising"
+
+rrcdom.12.t:0 "The RNA brass makes its allegiance known"
+rrcdom.12.d:0 "The Reorganized National Army of the Republic of China is the official Army of our Republic, but it is mostly a paper tiger due to numerous disarmament agreements with Japan going back all the way to the late 40s. Nevertheless, the RNA has an important role as a guarantor of internal security and as a propaganda instrument. The power struggle between Liu and Wang evidently split even the High Command, as only today, after some lengthy deliberation, the Army Brass has unanimously come forward to announce their support for..."
+rrcdom.12.a:0 "Wang"
+rrcdom.12.b:0 "Liu"
+
+rrcdom.14.t:0 "A Knife to the Throat"
+rrcdom.14.d:0 "With the government falling apart in the power struggle resulting from Wang Wenying's death, multiple local garrisons across southern China have been reportedly overwhelmed by mobs of locals supposedly led by a 'National Salvation Council', with partisans in the Huangshan, Ganzhou and Eastern Jiangxi areas joining the uprising soon after. With the majority of the RNA, left leaderless in the wake of governmental collapse, either standing down or outright proclaiming allegiance to these revolutionaries, the situation across China has deteriorated to the point where it could no longer be ignored by the Japanese. The general of the IJA's Nanjing Garrison, Kōichi Isobe, has allied with several other IJA generals commanding the occupation forces in interior China, and has called for all Japanese units to vacate the Interior and deploy in coastal northern China. Abandoning Nanjing as a position 'not defensible enough', Kōichi, his garrison, and the majority of the city's Kempeitai units have withdrawn beyond the Great Yangtze. Although the Interior has collapsed into anarchy, Kōichi has stated this course of action to be 'the only way to save Japanese interests and accomplishments in Shina'.\nIt seems the Great Rivers of China will soon be red with blood once more."
+rrcdom.14.a:0 "We shall give the Japanese another Ten Years War of Resistance!
+
+rrcdom.15.t:0 "The Garrison Steps In"
+rrcdom.15.d:0 "With the government apparently 'abandoning their commitment to Greater East Asia and Japan during the last few weeks', the IJA Garrison has moved to occupy the Assembly of the RNGROC as well as the Ministries of the Interior and Security. With Liu and Wang apparently 'disappearing' during this action, General Kōichi Isobe has assumed 'temporary control' over the RNGROC's government."
+rrcdom.15.a:0 "This does not bode well..."
+
+rrcdom.16.t:0 "The Inauguration of Wang Jiebing"
+rrcdom.16.d:0 "Today, Wang Jiebing has been officially inaugurated as the President of the ROC. Calling for 'reconciliation, reform and recentralization' in his address, Wang has, on the contrary, already started cracking down on the PNR-YP front. China has survived these initial trubles, but at what cost?"
+rrcdom.16.a:0 "But what happens to a collapse deferred?"
+
+rrcdom.17.t:0 "The Arrest of Mr. Liu"
+rrcdom.17.d:0 "This morning, at 5:30 AM, Kempeitai and National Police units raided the Headquarters of the PNR-YP Party Alliance on Xiaojingwei Street, hoping to capture the upper echelons of the party. The officers reportedly caught Mr. Liu packing his suitcase in a great hurry, and subsequently arrested him."
+rrcdom.17.a:0 "Well Done!"
+
+rrcdom.18.t:0 "The Snake Escapes"
+rrcdom.18.d:0 "This morning, at 8:30 AM, Kempeitai and National Police units raided the Headquarters of the PNR-YP Party Alliance on Xiaojingwei Street, hoping to capture the upper echelons of the party. Although many lower-ranking functionaries were arrested, subsequent interrogations revealed that Mr. Liu, together with several of his closest associates, left the house by car at approximately 6:00 AM that morning. Police have lost their trace east of Hefei, and there is little hope to catch him now."
+rrcdom.18.a:0 "Damn It!"
+
+rrcdom.19.t:0 "Great Leader Liu Seizes Power"
+rrcdom.19.d:0 "Today, our Great Leader Liu Zhongjing was officially inaugurated as President of the Republic of China. Promising 'autonomy and development', Liu was greeted by cheering crowds outside of his house every time he stepped outside. The only ones silent were the outspoken supporters of Mr. Wang, who, despite Liu's calls for 'reconciliation and civility', often found themselves hunted by furious mobs. Liu has already promised 'extensive reform', and many in the NDPROC fear that this will mean purging them..."
+rrcdom.19.a:0 "All Hail the Great Leader!"
+
+rrcdom.20.t:0 "A Flame Extinguished by a Shot in the Dark"
+rrcdom.20.d:0 "At 9:00 AM this morning, the limousine carrying Wang Jiebing passed a grassy knoll to the north of Guangzhou Road on the way to a private meeting with Great Leader Liu. Suddenly, two shots were fired, with one bullet entering Wang's back, penetrated his neck and damaged a spinal vertebra. The second bullet hit Mr. Wang's head directly afterwards, and although he was immediately rushed to a nearby hospital, he died at 2:34 PM today. A film of the entire event was reportedly seized by local police units."
+rrcdom.20.a:0 "Back, and to the Left..."
 
 rrcshout.1.t:0 "A Shouting Match on the Assembly Floor"
 rrcshout.1.d:0 "With Liu and Wang shouting at each other in the midst of the Assembly of the ROC in an extremely heated argument, what will you choose?"

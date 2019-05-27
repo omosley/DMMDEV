@@ -1,39 +1,32 @@
 
 state={
 	id=586
-	name="STATE_586" #Alma Alta
+	name="STATE_586"
 	resources={
-		steel=20 # was: 48
-		chromium=12 # was: 44
-		tungsten=4 # was: 14
-		aluminium=10 # was: 32
+		steel=20.000
+		chromium=12.000
+		tungsten=4.000
+		aluminium=10.000
 	}
 
-
-	state_category = city
-
 	history={
-		owner = SOV
+		owner = KYR
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 3
+			industrial_complex = 7
 
 		}
 		victory_points = {
 			1591 3 
 		}
-		add_core_of = SOV
-		#add_core_of = KAZ
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-			}
-		}
+		add_core_of = KYR
 
 	}
 
 	provinces={
-		1591 1825 4224 4686 7706 10148 10660 12583 12640 13147 
+		1483 1591 1675 1825 1840 4224 4316 4391 4768 5062 7706 10408 12370 12511 12583 13147 
 	}
 	manpower=2563404
+	buildings_max_level_factor=1.000
+	state_category=city
 }

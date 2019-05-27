@@ -18,9 +18,9 @@ state={
 	}
 
 	provinces={
-		1334 4215 4411 7281 7328 7401 10224 10256
+		1334 4215 4411 7281 7328 7401 10196 10224 10256 
 	}
-	manpower=1044991
+	manpower=100120
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=wasteland
 }

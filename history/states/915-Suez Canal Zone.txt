@@ -1,6 +1,6 @@
 state={
 	id=915
-	name="Suez Canal Zone"
+	name="STATE_915"
 	provinces={
 		4073 12049 
 		

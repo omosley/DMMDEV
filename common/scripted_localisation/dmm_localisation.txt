@@ -282,7 +282,7 @@ defined_text = {
   text = {
     trigger = {
     RRC = {     
-      has_country_flag = rrc_shout_chose_liu
+       NOT = { has_country_flag = rrc_shout_chose_liu }
       has_country_flag = rrc_shout_ai_block
       check_variable = { integer_counter = 1 } 
     }
@@ -292,7 +292,7 @@ defined_text = {
   text = {
     trigger = {
     RRC = {     
-      has_country_flag = rrc_shout_chose_liu
+       NOT = { has_country_flag = rrc_shout_chose_liu }
       has_country_flag = rrc_shout_ai_block
       check_variable = { integer_counter = 2 } 
     }
@@ -302,7 +302,7 @@ defined_text = {
   text = {
     trigger = {
     RRC = {     
-      has_country_flag = rrc_shout_chose_liu
+      NOT = { has_country_flag = rrc_shout_chose_liu }
       has_country_flag = rrc_shout_ai_block
       check_variable = { integer_counter = 3 } 
     }
@@ -312,7 +312,7 @@ defined_text = {
   text = {
     trigger = {
     RRC = {     
-      has_country_flag = rrc_shout_chose_liu
+       NOT = { has_country_flag = rrc_shout_chose_liu }
       has_country_flag = rrc_shout_ai_block
       check_variable = { integer_counter = 4 } 
     }
@@ -322,7 +322,7 @@ defined_text = {
   text = {
     trigger = {
     RRC = {     
-      has_country_flag = rrc_shout_chose_liu
+       NOT = { has_country_flag = rrc_shout_chose_liu }
       has_country_flag = rrc_shout_ai_block
       check_variable = { integer_counter = 5 } 
     }

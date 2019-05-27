@@ -1,6 +1,6 @@
 state={
 	id=916
-	name="Benin"
+	name="STATE_916"
 	provinces={
 		10919 12762 12874
 		

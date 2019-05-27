@@ -1,19 +1,20 @@
+
 state={
 	id=587
 	name="STATE_587"
 
 	history={
-		owner = SOV
+		owner = NFT
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = SOV
-		#add_core_of = KAZ
+		add_core_of = NFT
+
 	}
 
 	provinces={
-		475 642 1517 3593 4523 4620 7641 10262 10348 11701 12163 12383 12474 13008 
+		475 1517 3593 4523 4563 4620 7641 10262 10348 11701 12383 12474 13008 
 	}
 	manpower=245133
 	buildings_max_level_factor=1.000
