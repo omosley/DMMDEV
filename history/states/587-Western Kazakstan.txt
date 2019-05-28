@@ -5,18 +5,14 @@ state={
 
 	history={
 		owner = NFT
-		buildings = {
-			infrastructure = 1
-
-		}
 		add_core_of = NFT
 
 	}
 
 	provinces={
-		475 1517 3593 4523 4563 4620 7641 10262 10348 11701 12383 12474 13008 
+		4523 4620 7641 10262 10348 12383 12474 13008 
 	}
 	manpower=245133
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 }

@@ -17,14 +17,14 @@ state={
 
 		}
 		victory_points = {
-			1591 3 
+			4224 3 
 		}
 		add_core_of = KYR
 
 	}
 
 	provinces={
-		1483 1591 1675 1825 1840 4224 4316 4391 4768 5062 7706 10408 12370 12511 12583 13147 
+		1825 4224 7706 10408 12583 13147 
 	}
 	manpower=2563404
 	buildings_max_level_factor=1.000
