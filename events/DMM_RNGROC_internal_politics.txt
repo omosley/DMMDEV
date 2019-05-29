@@ -46,6 +46,7 @@ country_event = { #The Assembly hears Wang Jiebing
 
 	option = { #Wang speaks, Assembly orderly
 		name = rrcdom.1.a
+		custom_effect_tooltip = rrc.wang_increase
 		hidden_effect = {
 			add_to_variable = {	rrc_wang_support_increase = 1 }
 			country_event = {
@@ -59,6 +60,7 @@ country_event = { #The Assembly hears Wang Jiebing
 	}
 	option = { #Wang speaks, interrupted by Youth Party
 		name = rrcdom.1.b
+		custom_effect_tooltip = rrc.liu_increase_instability_koichi
 		hidden_effect = {
 			add_to_variable = {	rrc_liu_support_increase = 1 }
 			country_event = {
@@ -74,13 +76,18 @@ country_event = { #The Assembly hears Wang Jiebing
 	}
 	option = { #Liu openly proclaims Assembly not representative, calls for public forum, leaves assembly
 		name = rrcdom.1.c
+		custom_effect_tooltip = rrc.liu_increase_instability_koichi_great
 		hidden_effect = {
 			add_to_variable = { rrc_liu_support_increase = 2 }
 			country_event = {
 				id = rrcrepeat.0
 			}
-			add_to_variable = { rrc_instability = 3 }
-			add_to_variable = { rrc_koichi_anger = 3}
+			add_to_variable = { rrc_instability = 5 }
+			add_to_variable = { rrc_koichi_anger = 5 }
+			country_event = {
+				id = rrcdom.10
+				days = 6
+			}
 		}
 	}
 }
@@ -94,7 +101,8 @@ country_event = { #Wang speaks uninterrupted, content of speech
 	fire_only_once = yes
 
 	option = { #Wang promises peace, rebuilding and anti-communism
-		name = rrcdom.2.a 
+		name = rrcdom.2.a
+		custom_effect_tooltip = rrc.peace_rebuild
 		hidden_effect = {
 			random_list = {
 				25 = { #Wang pleases the assembly
@@ -124,6 +132,7 @@ country_event = { #Wang speaks uninterrupted, content of speech
 	}
 	option = { #Wang promises reform and recentralization
 		name = rrcdom.2.b
+		custom_effect_tooltip = rrc.peace_rebuild_2
 		hidden_effect = {
 			random_list = {
 				55 = { #Wang is cheered on by the assembly
@@ -163,6 +172,7 @@ country_event = {
 
 	option = {
 		name = rrcdom.3.a
+		custom_effect_tooltip = rrc.wang_increase_koichi_no
 		hidden_effect = {
 			add_to_variable = { rrc_wang_support_increase = 2 }
 			subtract_from_variable = { rrc_koichi_anger = 1 }
@@ -183,6 +193,7 @@ country_event = {
 
 	option = {
 		name = rrcdom.4.a
+		custom_effect_tooltip = rrc.instability.tt
 		hidden_effect = {
 			add_to_variable = { rrc_instability = 1 }
 		}
@@ -199,6 +210,7 @@ country_event = {
 
 	option = {
 		name = rrcdom.5.a
+		custom_effect_tooltip = rrc.liu_increase_wang_decrease_instability_koichi
 		hidden_effect = {
 			subtract_from_variable = { rrc_wang_support_increase = 2 }
 			add_to_variable = { rrc_koichi_anger = 1 }
@@ -221,6 +233,7 @@ country_event = {
 
 	option = {
 		name = rrcdom.6.a
+		custom_effect_tooltip = rrc.wang_increase_liu_decrease_instability_koichi
 		hidden_effect = {
 			subtract_from_variable = { rrc_liu_support_increase = 1 }
 			add_to_variable = { rrc_koichi_anger = 3 }
@@ -243,6 +256,7 @@ country_event = {
 
 	option = {
 		name = rrcdom.7.a
+		custom_effect_tooltip = rrc.wang_increase_koichi
 		hidden_effect = {
 			add_to_variable = { rrc_koichi_anger = 1 }
 			add_to_variable = { rrc_wang_support_increase = 1 }
@@ -263,6 +277,7 @@ country_event = {
 
 	option = {
 		name = rrcdom.8.a
+		custom_effect_tooltip = rrc.liu_increase_instability_koichi
 		hidden_effect = {
 			add_to_variable = { rrc_koichi_anger = 2 }
 			add_to_variable = { rrc_liu_support_increase = 1 }
@@ -284,6 +299,7 @@ country_event = {
 
 	option = { #the assembly calms down again
 		name = rrcdom.9.a
+		custom_effect_tooltip = rrc.assemblycalm
 		hidden_effect = {
 			country_event = {
 				id = rrcdom.2
@@ -293,6 +309,7 @@ country_event = {
 	}
 	option = { #shouting match between liu and wang
 		name = rrcdom.9.b
+		custom_effect_tooltip = rrc.shoutmatch
 		hidden_effect = {
 			set_country_flag = DMM_debug_gui
 			set_variable = {
@@ -327,6 +344,7 @@ country_event = { #liu holds a public rally
 
 	option = { #rally goes uninterrupted
 		name = rrcdom.10.a
+		custom_effect_tooltip = rrc.liu_increase_instability_no_koichi
 		hidden_effect = {
 			add_to_variable = { rrc_liu_support_increase = 2 }
 			add_to_variable = { rrc_koichi_anger = 1 }
@@ -342,6 +360,7 @@ country_event = { #liu holds a public rally
 	}
 	option = { #rally broken up by police
 		name = rrcdom.10.b
+		custom_effect_tooltip = rrc.liu_decrease_instability_koichi_no
 		hidden_effect = {
 			add_to_variable = { rrc_liu_support_increase = -1 }
 			add_to_variable = { rrc_koichi_anger = -1 }
@@ -365,6 +384,7 @@ country_event = { #the ministries declare for wang
 
 	option = { #ok
 		name = rrcdom.11.a
+		custom_effect_tooltip = rrc.wang_increase
 		hidden_effect = {
 			add_to_variable = { rrc_wang_support_increase = 2 }
 			country_event = {
@@ -386,6 +406,7 @@ country_event = { #the army brass takes a side
 
 	option = { #wang
 		name = rrcdom.12.a
+		custom_effect_tooltip = rrc.wang_increase
 		hidden_effect = {
 			add_to_variable = { rrc_wang_support_increase = 2 }
 			country_event = {
@@ -400,6 +421,7 @@ country_event = { #the army brass takes a side
 
 	option = { #liu
 		name = rrcdom.12.b
+		custom_effect_tooltip = rrc.liu_increase_instability
 		hidden_effect = {
 			add_to_variable = { rrc_liu_support_increase = 2 }
 			add_to_variable = { rrc_instability = 1 }
@@ -631,9 +653,12 @@ country_event = { #liu captured
 					#need appropriate trait
 				}
 			}
-			set_popularity = {
-				ideology = reactionary
-				popularity = 0.02
+			set_politics = {
+			parties = {
+				reactionary = {
+					popularity = 0.02
+				}
+			}
 			}
 		}
 	}
@@ -647,6 +672,7 @@ country_event = { #liu escapes
 
 	option = {
 		name = rrcdom.18.a
+		custom_effect_tooltip = rrc.liu_escape
 		add_political_power = -25
 		hidden_effect = {
 			create_country_leader = {
@@ -659,10 +685,14 @@ country_event = { #liu escapes
 					#need appropriate trait
 				}
 			}
-			set_popularity = {
-				ideology = reactionary
-				popularity = 0.07
+			set_politics = {
+			parties = {
+				reactionary = {
+					popularity = 0.07
+				}
 			}
+			}
+			set_country_flag = rrc_liu_escapes
 		}
 	}
 }
@@ -674,8 +704,8 @@ country_event = { #liu seizes power
 	is_triggered_only = yes
 
 	option = {
-		hidden_effect = {
 		name = rrcdom.19.a
+		hidden_effect = {
 		swap_ideas = {
 			remove_idea = RRC_political_struggle
 			add_idea = RRC_political_struggle_2
@@ -714,9 +744,12 @@ country_event = { #a shot in the dark
 					#need appropriate trait
 				}
 			}
-			set_popularity = {
-				ideology = authoritarian
-				popularity = 0.05
+			set_politics = {
+			parties = {
+				authoritarian = {
+					popularity = 0.05
+				}
+			}
 			}
 		}
 	}

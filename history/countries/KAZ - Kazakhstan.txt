@@ -1,6 +1,6 @@
-﻿capital = 586 #Almaty
+﻿capital = 402 #Almaty
 
-oob = "KAZ_1936"
+oob = "KAZ_2004"
 
 set_research_slots = 3
 

@@ -10,7 +10,7 @@ focus_tree = {
 	continuous_focus_position = { x = 16 y = 3000 }
 	focus = {
 		id = JAP_Foreign_Policy
-		icon = GFX_
+		#icon = GFX_
 		x = 10
 		y = 1
 		cost = 5
@@ -24,10 +24,8 @@ focus_tree = {
 		
 			always = no
 			}
-		completion_award = {
+		completion_reward = {
 			 custom_effect_tooltip = does_this_work
-				
 		}
-		}
-		}
-	focus = 
+	}
+}

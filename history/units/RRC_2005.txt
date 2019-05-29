@@ -290,26 +290,6 @@ units = {
 			start_experience_factor = 0.4
 			start_equipment_factor = 0.75
 		}
-		division = {
-			division_name = {
-				is_name_ordered = yes
-				name_order = 1
-			}
-			location = 1104
-			division_template = "Tankeshi"
-			start_experience_factor = 0.4
-			start_equipment_factor = 0.95
-		}
-		division = {
-			division_name = {
-				is_name_ordered = yes
-				name_order = 1
-			}
-			location = 1625
-			division_template = "Tankeshi"
-			start_experience_factor = 0.2
-			start_equipment_factor = 0.8
-		}
 		###China gets no navy lmao###
 		###China does not maintain an Air Force/may change once we determine tech###
 

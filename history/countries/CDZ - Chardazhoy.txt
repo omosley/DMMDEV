@@ -1,0 +1,71 @@
+﻿capital = 936
+
+oob = "CDZ_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+
+	parties = {
+		fascist = { 
+			popularity = 25
+			banned = no
+		}
+
+		authoritarian = {
+			popularity = 15
+			banned = no
+		}
+		
+		reactionary = {
+			popularity = 58
+			banned = no
+		}
+		
+		conservative = { 
+			popularity = 2
+		}
+
+		liberal = { 
+			popularity = 0
+			banned = yes
+		}
+
+		social_democrat = {
+			popularity = 0
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communist = { 
+			popularity = 0
+			banned = yes
+		}
+	}
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	
+	
+	name = "Eduardo Tsonga"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_land_2.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
