@@ -3,8 +3,16 @@ state={
 	id=930
 	name="STATE_930"
 	provinces={
-		7179 9991 11968 12010 
+		9991 11968 12010 7179
+	}
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 3
+
+		}
+
 	}
 	manpower=0
-	buildings_max_level_factor=1.000
+	state_category=town
 }
