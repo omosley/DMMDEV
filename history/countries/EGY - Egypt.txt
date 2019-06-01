@@ -8,6 +8,10 @@ set_technology = {
 
 set_convoys = 20
 
+add_ideas = {
+	cost_of_victory
+}
+
 set_politics = {
 
 	parties = {

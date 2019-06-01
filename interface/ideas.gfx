@@ -3639,4 +3639,8 @@ spriteTypes = {
 		name = "GFX_idea_crippled_economy"
 		texturefile = "gfx/interface/ideas/idea_crippled_economy.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_cost_of_victory"
+		texturefile = "gfx/interface/ideas/cost_of_victory.dds"
+	}
 }
