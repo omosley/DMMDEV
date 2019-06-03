@@ -2,7 +2,7 @@ state={
 	id=929
 	name="STATE_929"
 	provinces={ 
-		1553 13403 10514 7634
+		1553 10514 7634
 	}
 	history={
 		owner = RAJ

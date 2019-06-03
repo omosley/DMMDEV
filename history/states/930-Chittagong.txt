@@ -13,6 +13,6 @@ state={
 		}
 
 	}
-	manpower=0
+	manpower=19000
 	state_category=town
 }

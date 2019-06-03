@@ -4,6 +4,11 @@ state={
 	provinces={
 		2843 4162 7078 7124 9935 10035 11911 12050 
 	}
-	manpower=0
+	history={
+		owner = RAJ
+	}
+	
+	manpower=8977100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

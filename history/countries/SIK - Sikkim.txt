@@ -1,6 +1,6 @@
-﻿capital = 432
+﻿capital = 928
 
-oob = "BOD_1936"
+oob = "SIK_1936"
 
 set_technology = {
 	infantry_weapons = 1
@@ -13,12 +13,12 @@ set_politics = {
 
 	parties = {
 		fascist = { 
-			popularity = 8
+			popularity = 3
 			banned = no
 		}
 
 		authoritarian = {
-			popularity = 64
+			popularity = 5
 			banned = no
 		}
 
@@ -28,17 +28,17 @@ set_politics = {
 		}
 		
 		reactionary = {
-			popularity = 0
+			popularity = 70
 			banned = no
 		}
 		
 		conservative = { 
-			popularity = 8
+			popularity = 20
 			banned = no
 		}
 
 		liberal = { 
-			popularity = 0
+			popularity = 2
 			banned = no
 		}
 
@@ -48,16 +48,16 @@ set_politics = {
 		}
 		
 		socialist = {
-			popularity = 15
+			popularity = 0
 			banned = no
 		}
 		
 		communist = { 
-			popularity = 5
+			popularity = 0
 			banned = no
 		}
 	}
-	ruling_party = authoritarian 
+	ruling_party = reactionary
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -68,7 +68,7 @@ create_country_leader = {
 	desc = "She's underage"
 	picture = "gfx/leaders/ne_india/portrait_dmm_nei_placeholder.dds"
 	expire = "2040.1.1"
-	ideology = authoritarian 
+	ideology = social_democrat
 	traits = {
 		#
 	}

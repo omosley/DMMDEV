@@ -1,8 +1,6 @@
-﻿# Representing united Bengal
+﻿capital = 952
 
-capital = 429
-
-oob = "BEN_1936"
+oob = "AZA_1936"
 
 set_technology = {
 	infantry_weapons = 1
@@ -15,12 +13,12 @@ set_politics = {
 
 	parties = {
 		fascist = { 
-			popularity = 25
+			popularity = 65
 			banned = no
 		}
 
 		authoritarian = {
-			popularity = 8
+			popularity = 10
 			banned = no
 		}
 
@@ -40,26 +38,26 @@ set_politics = {
 		}
 
 		liberal = { 
-			popularity = 2
+			popularity = 0
 			banned = no
 		}
 
 		social_democrat = {
-			popularity = 45
+			popularity = 0
 			banned = no
 		}
 		
 		socialist = {
-			popularity = 15
+			popularity = 5
 			banned = no
 		}
 		
 		communist = { 
-			popularity = 5
+			popularity = 20
 			banned = no
 		}
 	}
-	ruling_party = social_democrat
+	ruling_party = fascist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -70,7 +68,7 @@ create_country_leader = {
 	desc = "She's underage"
 	picture = "gfx/leaders/ne_india/portrait_dmm_nei_placeholder.dds"
 	expire = "2040.1.1"
-	ideology = social_democrat
+	ideology = fascist
 	traits = {
 		#
 	}

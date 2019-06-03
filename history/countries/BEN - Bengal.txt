@@ -1,6 +1,4 @@
-﻿# Representing united Bengal
-
-capital = 429
+﻿capital = 429
 
 oob = "BEN_1936"
 
