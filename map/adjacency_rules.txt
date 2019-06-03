@@ -349,3 +349,42 @@ adjacency_rule
 	icon = 1071
 	offset = { 5 0 -6 }
 }
+
+adjacency_rule
+{
+	name = "AZOV_STRAIT"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 6741 9680 }
+		
+	icon = 9680
+	offset = { 5 0 -6 }
+}
