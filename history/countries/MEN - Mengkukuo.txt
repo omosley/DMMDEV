@@ -55,50 +55,22 @@ set_technology = {
 	}
 }
 
-set_politics = {
-
-	parties = {
-		fascist = { 
-			popularity = 70
-		}
-
-		authoritarian = {
-			popularity = 15
-		}
-
-		reactionary = {
-			popularity = 10
-		}
-
-		conservative = {
-			popularity = 5
-		}
-
-		liberal = {
-			popularity = 0
-			banned = yes
-		}
-
-		social_democrat = {
-			popularity = 0
-			banned = yes
-		}
-
-		socialist = {
-			popularity = 0
-			banned = yes
-		}
-
-		communist = {
-			popularity = 0
-			banned = yes
-		}
-	}
-	
+set_politics = {	
 	ruling_party = fascist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 70
+    authoritarian = 15
+    reactionary = 10
+    conservative = 5
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
 }
 
 create_country_leader = {

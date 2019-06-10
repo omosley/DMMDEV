@@ -71,50 +71,21 @@ set_convoys = 400
 
 
 set_politics = {
-
-	parties = {
-		fascist = { 
-			popularity = 0
-			banned = yes
-		}
-
-		corporatist = {
-			popularity = 0
-			banned = yes
-		}
-		
-		reactionary = {
-			popularity = 17
-			banned = yes
-		}
-		
-		conservative = { 
-			popularity = 31
-		}
-
-		liberal = { 
-			popularity = 29
-			banned = yes
-		}
-
-		social_democrat = {
-			popularity = 7
-			banned = yes
-		}
-		
-		socialist = {
-			popularity = 5
-			banned = yes
-		}
-		
-		communist = { 
-			popularity = 10
-		}
-	}
 	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 0
+    corporatist = 0
+    reactionary = 17
+    conservative = 31
+    liberal = 30
+    social_democrat = 7
+    socialist = 5
+    communist = 10
 }
 
 

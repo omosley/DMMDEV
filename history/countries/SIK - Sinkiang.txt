@@ -8,46 +8,21 @@ set_technology = {
 }
 
 set_politics = {
-
-	parties = {
-		fascist = { 
-			popularity = 10
-		}
-
-		authoritarian = {
-			popularity = 10
-		}
-		
-		reactionary = {
-			popularity = 15
-		}
-		
-		conservative = { 
-			popularity = 40
-		}
-
-		liberal = { 
-			popularity = 15
-		}
-
-		social_democrat = {
-			popularity = 10
-		}
-		
-		socialist = {
-			popularity = 0
-			banned = yes
-		}
-		
-		communist = { 
-			popularity = 0
-			banned = yes
-		}
-	}
 	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 10
+    authoritarian = 10
+    reactionary = 15
+    conservative = 40
+    liberal = 15
+    social_democrat = 10
+    socialist = 0
+    communist = 0
 }
 	
 

@@ -1,4 +1,4 @@
-#################
+﻿#################
 # RNGROC internal events
 #################
 
@@ -653,13 +653,11 @@ country_event = { #liu captured
 					#need appropriate trait
 				}
 			}
-			set_politics = {
-			parties = {
-				reactionary = {
-					popularity = 0.02
-				}
-			}
-			}
+			#set_politics = {    }
+
+        set_popularities = {
+            reactionary = 0.02
+        }
 		}
 	}
 }
@@ -685,13 +683,11 @@ country_event = { #liu escapes
 					#need appropriate trait
 				}
 			}
-			set_politics = {
-			parties = {
-				reactionary = {
-					popularity = 0.07
-				}
-			}
-			}
+			#set_politics = {    }
+
+        set_popularities = {
+            reactionary = 0.07
+        }
 			set_country_flag = rrc_liu_escapes
 		}
 	}
@@ -744,13 +740,11 @@ country_event = { #a shot in the dark
 					#need appropriate trait
 				}
 			}
-			set_politics = {
-			parties = {
-				authoritarian = {
-					popularity = 0.05
-				}
-			}
-			}
+			#set_politics = {    }
+
+        set_popularities = {
+            authoritarian = 0.05
+        }
 		}
 	}
 }

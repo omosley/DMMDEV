@@ -13,57 +13,22 @@ add_ideas = {
 }
 
 set_politics = {
-
-	parties = {
-		fascist = { 
-			popularity = 0
-			banned = no
-		}
-
-		authoritarian = {
-			popularity = 34
-			banned = no
-		}
-
-		corporatist = {
-			popularity = 0
-			banned = no
-		}
-		
-		reactionary = {
-			popularity = 50
-			banned = no
-		}
-		
-		conservative = { 
-			popularity = 10
-			banned = no
-		}
-
-		liberal = { 
-			popularity = 2
-			banned = no
-		}
-
-		social_democrat = {
-			popularity = 2
-			banned = no
-		}
-		
-		socialist = {
-			popularity = 0
-			banned = no
-		}
-		
-		communist = { 
-			popularity = 0
-			banned = no
-		}
-	}
 	ruling_party = reactionary 
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 0
+    authoritarian = 34
+    corporatist = 0
+    reactionary = 50
+    conservative = 10
+    liberal = 2
+    social_democrat = 2
+    socialist = 0
+    communist = 0
 }
 
 create_country_leader = {

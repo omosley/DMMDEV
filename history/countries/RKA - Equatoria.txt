@@ -12,26 +12,21 @@ set_technology = {
 
 set_convoys = 10
 
-set_politics = {
-
-	parties = {
-        fascist = {
-        	popularity = 100
-        	banned = no
-        }
-        authoritarian = { popularity = 0 }
-        reactionary = { popularity = 0 }
-        conservative = { popularity = 0 }
-        liberal = { popularity = 0 }
-        social_democrat = { popularity = 0 }
-        socialist = { popularity = 0 }
-        communist = { popularity = 0 }
-
-	}
-	
+set_politics = {	
 	ruling_party = fascist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 100
+    authoritarian = 0
+    reactionary = 0
+    conservative = 0
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
 }
 

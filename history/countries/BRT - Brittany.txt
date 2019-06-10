@@ -117,53 +117,32 @@ set_convoys = 200
 set_stability = 0.7
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 100
-		}
-		
-		communism = {
-			popularity = 0
-		}
-	}
-
 	ruling_party = fascism
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
+set_popularities = {
+    democratic = 0
+    fascism = 100
+    communism = 0
+}
+
 1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 100
-			}
-			
-			communism = {
-				popularity = 0
-			}
-
-			neutrality = {
-				popularity = 0
-			}
-		}
-		
+	set_politics = {		
 		ruling_party = fascism
 		last_election = "1936.10.19"
 		election_frequency = 36
 		elections_allowed = yes
-	}
+}
+
+    set_popularities = {
+        democratic = 0
+        fascism = 100
+        communism = 0
+        neutrality = 0
+    }
 }
 
 create_country_leader = {

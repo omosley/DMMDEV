@@ -6,26 +6,17 @@ set_technology = {
 }
 
 
-set_politics = {
-
-	parties = {
-		authoritarian = { 
-			popularity = 5
-		}
-
-		fascist = {
-			popularity = 90
-		}
-		
-		reactionary = {
-			popularity = 5
-		}
-	}
-	
+set_politics = {	
 	ruling_party = fascist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    authoritarian = 5
+    fascist = 90
+    reactionary = 5
 }
 
 create_country_leader = {

@@ -7,14 +7,14 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = SOV
+		owner = URA
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SOV
+		add_core_of = URA
 	}
 
 	provinces={
-		1664 1684 3169 4669 7689 7738 8461 9142 
+		4669 8461
 	}
 }

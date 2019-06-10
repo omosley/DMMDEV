@@ -69,50 +69,21 @@ set_convoys = 15
 
 
 set_politics = {
-
-	parties = {
-		fascist = { 
-			popularity = 35
-			banned = yes
-		}
-
-		corporatist = {
-			popularity = 6
-			banned = yes
-		}
-		
-		reactionary = {
-			popularity = 10
-			banned = yes
-		}
-		
-		conservative = { 
-			popularity = 28
-		}
-
-		liberal = { 
-			popularity = 12
-			banned = yes
-		}
-
-		social_democrat = {
-			popularity = 7
-			banned = yes
-		}
-		
-		socialist = {
-			popularity = 2
-			banned = yes
-		}
-		
-		communist = { 
-			popularity = 0
-		}
-	}
 	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 35
+    corporatist = 6
+    reactionary = 10
+    conservative = 28
+    liberal = 12
+    social_democrat = 7
+    socialist = 2
+    communist = 0
 }
 	
 create_country_leader = {

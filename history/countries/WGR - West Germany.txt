@@ -48,51 +48,21 @@ set_stability = 0.7
 
 
 set_politics = {
-
-	parties = {
-		fascist = { 
-			popularity = 25
-			banned = no
-		}
-
-		authoritarian = {
-			popularity = 15
-			banned = no
-		}
-		
-		reactionary = {
-			popularity = 58
-			banned = no
-		}
-		
-		conservative = { 
-			popularity = 2
-		}
-
-		liberal = { 
-			popularity = 0
-			banned = yes
-		}
-
-		social_democrat = {
-			popularity = 0
-			banned = yes
-		}
-		
-		socialist = {
-			popularity = 0
-			banned = yes
-		}
-		
-		communist = { 
-			popularity = 0
-			banned = yes
-		}
-	}
 	ruling_party = authoritarian
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 25
+    authoritarian = 15
+    reactionary = 58
+    conservative = 2
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
 }
 
 

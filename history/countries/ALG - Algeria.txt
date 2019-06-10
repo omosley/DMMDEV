@@ -8,49 +8,19 @@ set_convoys = 20
 
 
 set_politics = {
-
-	parties = {
-		fascist = { 
-			popularity = 0
-			banned = no
-		}
-
-		authoritarian = {
-			popularity = 0
-			banned = no
-		}
-		
-		reactionary = {
-			popularity = 100
-			banned = no
-		}
-		
-		conservative = { 
-			popularity = 0
-		}
-
-		liberal = { 
-			popularity = 0
-			banned = yes
-		}
-
-		social_democrat = {
-			popularity = 0
-			banned = yes
-		}
-		
-		socialist = {
-			popularity = 0
-			banned = yes
-		}
-		
-		communist = { 
-			popularity = 0
-			banned = yes
-		}
-	}
 	ruling_party = reactionary
 	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 0
+    authoritarian = 0
+    reactionary = 100
+    conservative = 0
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
 }
 
 

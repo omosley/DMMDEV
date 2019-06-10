@@ -22,51 +22,21 @@ set_technology = {
 set_convoys = 25
 
 set_politics = {
-
-	parties = {
-		fascist = { 
-			popularity = 15
-			banned = yes
-		}
-
-		corporatist = {
-			popularity = 11
-			banned = yes
-		}
-		
-		reactionary = {
-			popularity = 25
-			banned = yes
-		}
-		
-		conservative = { 
-			popularity = 30
-		}
-
-		liberal = { 
-			popularity = 12
-			banned = yes
-		}
-
-		social_democrat = {
-			popularity = 0
-			banned = yes
-		}
-		
-		socialist = {
-			popularity = 0
-			banned = yes
-		}
-		
-		communist = { 
-			popularity = 0
-		}
-	}
-
 	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 15
+    corporatist = 11
+    reactionary = 25
+    conservative = 30
+    liberal = 12
+    social_democrat = 7
+    socialist = 0
+    communist = 0
 }
 
 

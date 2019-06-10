@@ -27,47 +27,21 @@ add_ideas = {
 set_convoys = 25
 
 set_politics = {
-
-	parties = {
-		fascist = { 
-			popularity = 0
-			banned = yes
-		}
-
-		authoritarian = {
-			popularity = 70
-		}
-		
-		reactionary = {
-			popularity = 20
-		}
-		
-		conservative = { 
-			popularity = 8
-		}
-
-		liberal = { 
-			popularity = 2
-		}
-
-		social_democrat = {
-			popularity = 0
-		}
-		
-		socialist = {
-			popularity = 0
-			banned = yes
-		}
-		
-		communist = { 
-			popularity = 0
-			banned = yes
-		}
-	}
 	ruling_party = authoritarian
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 0
+    authoritarian = 70
+    reactionary = 20
+    conservative = 8
+    liberal = 2
+    social_democrat = 0
+    socialist = 0
+    communist = 0
 }
 	
 

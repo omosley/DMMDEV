@@ -25,48 +25,21 @@ set_technology = {
 set_convoys = 40
 
 set_politics = {
-
-	parties = {
-		fascist = { 
-			popularity = 0
-			banned = yes
-		}
-
-		authoritarian = {
-			popularity = 5
-			banned = no
-		}
-		
-		reactionary = {
-			popularity = 10
-			banned = no
-		}
-		
-		conservative = { 
-			popularity = 40
-		}
-
-		liberal = { 
-			popularity = 30
-		}
-
-		social_democrat = {
-			popularity = 10
-		}
-		
-		socialist = {
-			popularity = 5
-		}
-		
-		communist = { 
-			popularity = 0
-			banned = yes
-		}
-	}
 	ruling_party = liberal
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    fascist = 0
+    authoritarian = 5
+    reactionary = 10
+    conservative = 40
+    liberal = 30
+    social_democrat = 10
+    socialist = 5
+    communist = 0
 }
 
 create_country_leader = {
