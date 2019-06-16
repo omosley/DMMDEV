@@ -622,3 +622,6 @@
  PAR_fascist_party_long:0 "Deutsch-Paraguayanischer Freundschaftsbund"
  PAR_authoritarian_party:0 "Partido Colorado"
  PAR_conservative_party:0 "Partido de la Libertad Cristiana"
+ corporatist:0 "National Socialism"
+ RRC_corporatist_party:0 "NTST" #日本帝国市民党
+ RRC_corporatist_party_long:0 "Nihon Teikoku Shimin-tō (Japanese Imperial Citizen Party)"

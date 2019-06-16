@@ -14,6 +14,25 @@ country_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 
+	immediate = {
+		hidden_effect = {
+		set_variable = { rrc_wenying_instability = 0 }
+		country_event = {
+			id = rrcrepeat.1
+			days = 7
+		}
+		set_variable = { rrc_instability = 0 }
+		set_variable = { rrc_liu_support = 0 }
+		set_variable = { rrc_wang_support = 0 }
+		set_variable = { rrc_koichi_anger = 0 }
+		set_variable = { rrc_instability_increase = 0 }
+		set_variable = { rrc_wang_support_div = 0 }
+		set_variable = { rrc_liu_support_div = 0 }
+		set_variable = { rrc_nihonmachi = 0 }
+		set_country_flag = rrc_wang_wenying_instability_flag
+		}
+	}
+
 	option = {
 		name = natchina.1.a
 		add_political_power = -100
@@ -71,14 +90,14 @@ country_event = {
 
 	trigger = {
 		tag = RRC
-		date > 2004.2.20
+		date > 2004.4.20
 		has_country_leader = {
 			name = "Wang Wenying"
 			ruling_only = yes
 		}
 	}
 	mean_time_to_happen = {
-		days = 25
+		days = 23
 	}
 	fire_only_once = yes
 
@@ -87,7 +106,7 @@ country_event = {
 		name = natchina.4.a
 		kill_country_leader = yes
 		add_political_power = -50
-		add_ideas = RRC_political_struggle
+		add_ideas = rrc_power_struggle_no_dominant
 		create_country_leader = {
 			name = "Power Vacuum"
 			desc = "POLITICS_POWER_VACUUM_DESC"
@@ -115,12 +134,30 @@ country_event = {
 				}
 			}
 			set_country_flag = rrc_wang_dead
-			remove_ideas = RRC_entry_garrison_pleased
+			if = {
+				limit = {
+					has_idea = rrc_wenying_rural_schools
+				}
+				remove_ideas = rrc_wenying_rural_schools
+			}
+			if = {
+				limit = {
+					has_idea = rrc_wenying_local_elections
+				}
+				remove_ideas = rrc_wenying_local_elections
+			}
+			if = {
+				limit = {
+					has_idea = RRC_entry_garrison_pleased
+				}
+				remove_ideas = RRC_entry_garrison_pleased
+			}
 			if = {
 			limit = { RRC = { NOT = { has_completed_national_focus = { CHI_anewpolicyforchina } } } }
 			complete_national_focus = CHI_anewpolicyforchina
 			else = {}
 			}
+			country_event = rrcrepeat.2
 			if = {
 				limit = {
 					AND = {
@@ -201,10 +238,10 @@ country_event = {
 			factor = 30
 		}
 		add_political_power = -50
-		swap_ideas = {
-			remove_idea = RRC_political_struggle
-			add_idea = RRC_political_struggle_2
-		}
+		#swap_ideas = {
+		#	remove_idea = RRC_political_struggle
+		#	add_idea = RRC_political_struggle_2
+		#}
 		hidden_effect = {
 			country_event = {
 				id = natchina.6
@@ -224,10 +261,10 @@ country_event = {
 			factor = 50
 		}
 		add_political_power = 100
-		swap_ideas = {
-			remove_idea = RRC_political_struggle
-			add_idea = RRC_political_struggle_2
-		}
+		#swap_ideas = {
+		#	remove_idea = RRC_political_struggle
+		#	add_idea = RRC_political_struggle_2
+		#}
 		hidden_effect = {
 			country_event = {
 				id = natchina.6
@@ -256,10 +293,10 @@ country_event = {
 			factor = 15
 		}
 		add_political_power = -200
-		swap_ideas = {
-			remove_idea = RRC_political_struggle
-			add_idea = RRC_political_struggle_2
-		}
+		#swap_ideas = {
+		#	remove_idea = RRC_political_struggle
+		#	add_idea = RRC_political_struggle_2
+		#}
 		hidden_effect = {
 			country_event = {
 				id = natchina.6
@@ -328,10 +365,10 @@ country_event = {
 	option = {
 		name = natchina.6.a
 		hidden_effect = {
-		remove_ideas = RRC_political_struggle_2
-		add_ideas = RRC_army_conflict
-		add_ideas = RRC_ministry_conflict
-		add_ideas = RRC_national_assembly_split
+		#remove_ideas = RRC_political_struggle_2
+		#add_ideas = RRC_army_conflict
+		#add_ideas = RRC_ministry_conflict
+		#add_ideas = RRC_national_assembly_split
 		}
 	}
 }
@@ -1633,13 +1670,14 @@ country_event = { #who should we kowtow to?
 	option = {
 		name = natchina.19.a
 		hidden_effect = {
-		set_country_flag = rrc_wenying_japan_priority
+			set_country_flag = rrc_wenying_japan_priority
+			set_country_flag = rrc_koichi_anger_reduced
 		}
 	}
 	option = {
 		name = natchina.19.b
 		hidden_effect = {
-		set_country_flag = rrc_wenying_liu_priority
+			set_country_flag = rrc_wenying_liu_priority
 		}
 	}
 }
@@ -1676,7 +1714,7 @@ country_event = { #The Northwest awakes
 		add_stability = -0.05
 	}
 }
-country_event = { #Mogolia Seizes Borderlands
+country_event = { #Mongolia Seizes Borderlands
 	id = natchina.22
 	title = natchina.22.t
 	desc = natchina.22.d
@@ -1693,3 +1731,108 @@ country_event = { #Mogolia Seizes Borderlands
 		add_stability = -0.07
 	}
 } 
+country_event = {
+	id = natchina.24
+	title = natchina.24.t
+	desc = natchina.24.d
+	#picture =
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = no
+
+	option = {
+		name = natchina.24.a
+		custom_effect_tooltip = slow_decentralization_tt
+		hidden_effect = {
+			add_ideas = detente_with_liu
+			set_country_flag = rrc_wang_wenying_decentralization
+			set_variable = {
+				var = wang_wenying_decentralization
+				value = 0
+			}
+		}
+	}
+}
+country_event = {
+	id = natchina.23
+	title = natchina.23.t
+	desc = natchina.23.d
+	#picture =
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = natchina.23.a
+		add_political_power = 50
+		add_stability = 0.05
+	}
+}
+country_event = {
+	id = natchina.25
+	title = natchina.25.t
+	desc = natchina.25.d
+	#picture =
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = no
+
+	option = {
+		name = natchina.25.a
+		add_ideas = rrc_wenying_balance
+	}
+}
+country_event = {
+	id = natchina.26
+	title = natchina.26.t
+	desc = natchina.26.d
+	#picture =
+
+	is_triggered_only = yes
+	hidden = no
+
+	option = {
+		name = natchina.26.a
+	}
+}
+country_event = {
+	id = natchina.27
+	title = natchina.27.t
+	desc = natchina.27.d
+	#picture =
+
+	is_triggered_only = yes
+	hidden = no
+
+	option = {
+		name = natchina.27.a
+	}
+}
+country_event = {
+	id = natchina.28
+	title = natchina.28.t
+	desc = natchina.28.d
+	#picture =
+
+	is_triggered_only = yes
+	hidden = no
+
+	option = {
+		name = natchina.28.a
+	}
+}
+country_event = {
+	id = natchina.29
+	title = natchina.29.t
+	desc = natchina.29.d
+	#picture =
+
+	is_triggered_only = yes
+	hidden = no
+
+	option = {
+		name = natchina.29.a
+	}
+}

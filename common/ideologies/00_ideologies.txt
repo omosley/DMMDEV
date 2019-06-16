@@ -1,11 +1,47 @@
 ideologies = {
 
+	corporatist = {
+	
+		types = {
+			
+			corporate_rule = {
+			}
+			
+			corporate_monopoly = {
+			}
+			
+			corporate_republic = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_CORPORATIST_1"
+			"FACTION_NAME_CORPORATIST_2"
+			"FACTION_NAME_CORPORATIST_3"
+			"FACTION_NAME_CORPORATIST_4"
+			"FACTION_NAME_CORPORATIST_5"
+		}
+		
+		color = { 0 0 0 }
+		
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		can_host_government_in_exile = yes
+		ai_fascist = yes # uses the fascist AI behaviour
+	}
+
 	fascist = {
 	
 		types = {
 		
-			nazism = {
-			}
+			#nazism = {
+			#}
 			
 			italian_fascism = {
 			}
@@ -34,7 +70,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 		
-		color = { 0 0 0 }
+		color = { 139 69 19 }
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
@@ -47,42 +83,6 @@ ideologies = {
 		
 		can_host_government_in_exile = yes
 
-		ai_fascist = yes # uses the fascist AI behaviour
-	}
-
-	corporatist = {
-	
-		types = {
-			
-			corporate_rule = {
-			}
-			
-			corporate_monopoly = {
-			}
-			
-			corporate_republic = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_CORPORATIST_1"
-			"FACTION_NAME_CORPORATIST_2"
-			"FACTION_NAME_CORPORATIST_3"
-			"FACTION_NAME_CORPORATIST_4"
-			"FACTION_NAME_CORPORATIST_5"
-		}
-		
-		color = { 66 54 176 }
-		
-		war_impact_on_world_tension = 1.0			#evil!
-		faction_impact_on_world_tension = 1.0
-		
-		rules = {
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = yes
-		}
-		can_host_government_in_exile = yes
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 
@@ -110,7 +110,7 @@ ideologies = {
 			"FACTION_NAME_CORPORATIST_5"
 		}
 		
-		color = { 0 0 45 }
+		color = { 25 25 112 }
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
@@ -160,7 +160,8 @@ ideologies = {
 			"FACTION_NAME_REACTION_5"
 		}
 		
-		color = { 212 213 199 }
+		#color = { 212 213 199 }
+		color = { 70 130 180 }
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
@@ -391,7 +392,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 161 0 0 }
+		color = { 128 0 0 }
 		
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5

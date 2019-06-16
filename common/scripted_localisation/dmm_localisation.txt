@@ -1127,3 +1127,198 @@ defined_text = { # global
     localization_key = dmm_wang
   }
 }
+
+defined_text = { # global
+  name = instability_t
+
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 0 }
+    }
+    localization_key = dmm_wang_wenying_title0
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 1 }
+    }
+    localization_key = dmm_wang_wenying_title1
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 2 }
+    }
+    localization_key = dmm_wang_wenying_title2
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 3 }
+    }
+    localization_key = dmm_wang_wenying_title3
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 4 }
+    }
+    localization_key = dmm_wang_wenying_title4
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 5 }
+    }
+    localization_key = dmm_wang_wenying_title5
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 6 }
+    }
+    localization_key = dmm_wang_wenying_title6
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 7 }
+    }
+    localization_key = dmm_wang_wenying_title7
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 8 }
+    }
+    localization_key = dmm_wang_wenying_title8
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 9 }
+    }
+    localization_key = dmm_wang_wenying_title9
+  }
+}
+
+defined_text = { # global
+  name = instability_d
+
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 0 }
+    }
+    localization_key = dmm_wang_wenying_desc0
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 1 }
+    }
+    localization_key = dmm_wang_wenying_desc1
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 2 }
+    }
+    localization_key = dmm_wang_wenying_desc2
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 3 }
+    }
+    localization_key = dmm_wang_wenying_desc3
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 4 }
+    }
+    localization_key = dmm_wang_wenying_desc4
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 5 }
+    }
+    localization_key = dmm_wang_wenying_desc5
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 6 }
+    }
+    localization_key = dmm_wang_wenying_desc6
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 7 }
+    }
+    localization_key = dmm_wang_wenying_desc7
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 8 }
+    }
+    localization_key = dmm_wang_wenying_desc8
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 9 }
+    }
+    localization_key = dmm_wang_wenying_desc9
+  }
+}
+
+defined_text = { # global
+  name = instability_a
+
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 0 }
+    }
+    localization_key = dmm_wang_wenying_a0
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 1 }
+    }
+    localization_key = dmm_wang_wenying_a1
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 2 }
+    }
+    localization_key = dmm_wang_wenying_a2
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 3 }
+    }
+    localization_key = dmm_wang_wenying_a3
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 4 }
+    }
+    localization_key = dmm_wang_wenying_a4
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 5 }
+    }
+    localization_key = dmm_wang_wenying_a5
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 6 }
+    }
+    localization_key = dmm_wang_wenying_a6
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 7 }
+    }
+    localization_key = dmm_wang_wenying_a7
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 8 }
+    }
+    localization_key = dmm_wang_wenying_a8
+  }
+  text = {
+    trigger = {
+      check_variable = { rrc_wenying_instability = 9 }
+    }
+    localization_key = dmm_wang_wenying_a9
+  }
+}

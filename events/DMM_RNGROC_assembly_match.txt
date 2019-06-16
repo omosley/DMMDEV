@@ -818,6 +818,7 @@ country_event = {
 		country_event = {
 				id = rrcrepeat.0
 			}
+		change_power_struggle_dynamic_china = yes
 		}
 	}
 }
@@ -849,6 +850,7 @@ country_event = {
 		country_event = {
 				id = rrcrepeat.0
 			}
+			change_power_struggle_dynamic_china = yes
 		}
 	}
 }

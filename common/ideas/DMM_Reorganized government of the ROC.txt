@@ -278,7 +278,7 @@ ideas = {
 				conscription = -0.02
 			}
 		}
-		RRC_political_struggle = {
+		rrc_power_struggle_no_dominant = {
 			picture = generic_purge
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
@@ -419,6 +419,234 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				political_power_factor = 0.05
+			}
+		}
+		detente_with_liu = {
+			picture = generic_victors_of_ww1
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				reactionary_drift = -0.05
+			}
+		}
+		rrc_wenying_local_elections = {
+			picture = generic_volunteer_expedition_bonus
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.05
+				reactionary_drift = -0.01
+			}
+		}
+		rrc_wenying_rural_schools = {
+			picture = generic_volunteer_expedition_bonus
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				research_time_factor = -0.02
+				authoritarian_drift = 0.01
+			}
+		}
+		rrc_wenying_balance = {
+			picture = generic_spy_intel
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				reactionary_drift = -0.01
+				fascist_drift = -0.01
+				political_power_factor = 0.05
+			}
+		}
+		rrc_instability_low = {
+			picture = chinabroken0
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+		}
+		rrc_instability_medium = {
+			picture = chinabroken1
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+		}
+		rrc_instability_high = {
+			picture = chinabroken2
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+		}
+		rrc_instability_very_high = {
+			picture = chinabroken3
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+		}
+		rrc_instability_extreme = {
+			picture = chinabroken4
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+		}
+		rrc_power_struggle_civil_war = {
+			picture = civil_war_struggle
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.15
+				stability_weekly = -0.1
+				#political_advisor_cost_factor = 0.5
+				#trade_laws_cost_factor = 0.5
+				#mobilization_laws_cost_factor = 0.5
+				#economy_cost_factor = 0.5
+				#high_command_cost_factor = 0.5
+				#air_chief_cost_factor = 0.5
+				#army_chief_cost_factor = 0.5
+				#navy_chief_cost_factor = 0.5
+				#foreign_subversive_activities = 0.25
+			}
+		}
+		rrc_power_struggle_liu_dominant = {
+			picture = liu_struggle
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.15
+				stability_weekly = -0.1
+				#political_advisor_cost_factor = 0.5
+				#trade_laws_cost_factor = 0.5
+				#mobilization_laws_cost_factor = 0.5
+				#economy_cost_factor = 0.5
+				#high_command_cost_factor = 0.5
+				#air_chief_cost_factor = 0.5
+				#army_chief_cost_factor = 0.5
+				#navy_chief_cost_factor = 0.5
+				#foreign_subversive_activities = 0.25
+			}
+		}
+		rrc_power_struggle_wang_dominant = {
+			picture = wang_struggle
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.15
+				stability_weekly = -0.1
+				#political_advisor_cost_factor = 0.5
+				#trade_laws_cost_factor = 0.5
+				#mobilization_laws_cost_factor = 0.5
+				#economy_cost_factor = 0.5
+				#high_command_cost_factor = 0.5
+				#air_chief_cost_factor = 0.5
+				#army_chief_cost_factor = 0.5
+				#navy_chief_cost_factor = 0.5
+				#foreign_subversive_activities = 0.25
+			}
+		}
+		rrc_power_struggle_koichi_angry = {
+			picture = koichi_struggle
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.15
+				stability_weekly = -0.1
+				#political_advisor_cost_factor = 0.5
+				#trade_laws_cost_factor = 0.5
+				#mobilization_laws_cost_factor = 0.5
+				#economy_cost_factor = 0.5
+				#high_command_cost_factor = 0.5
+				#air_chief_cost_factor = 0.5
+				#army_chief_cost_factor = 0.5
+				#navy_chief_cost_factor = 0.5
+				#foreign_subversive_activities = 0.25
+			}
+		}
+		rrc_nihonmachi_low = {
+			picture = nihonmachi_low
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		rrc_nihonmachi_medium = {
+			picture = nihonmachi_medium
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		rrc_nihonmachi_high = {
+			picture = nihonmachi_high
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		rrc_nihonmachi_very_high = {
+			picture = nihonmachi_very_high
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		rrc_nihonmachi_extreme = {
+			picture = nihonmachi_extreme
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		rrc_production_diverted_garrison = {
+			picture = china_tariffs
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.1
+				min_export = 0.05
+			}
+		}
+		rrc_kempeitai_expanded = {
+			picture = kempeitai
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				enemy_partisan_effect = -0.07
+				political_power_factor = 0.05
+			}
+		}
+		rrc_kempeitai_expanded2 = {
+			picture = kempeitai
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				enemy_partisan_effect = -0.15
+				political_power_factor = 0.1
+			}
+		}
+		rrc_expanded_military_authority = {
+			picture = military_goal_china
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.1
+				production_speed_buildings_factor = -0.1
 			}
 		}
 	}

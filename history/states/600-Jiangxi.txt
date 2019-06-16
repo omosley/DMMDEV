@@ -1,7 +1,9 @@
 state={
 	id=600
 	name="STATE_600"
-
+	resources= {
+		tungsten=10
+	}
 	history={
 		owner = RRC
 		add_core_of = RRC

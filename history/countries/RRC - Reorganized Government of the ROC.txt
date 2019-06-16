@@ -42,8 +42,9 @@ add_ideas = {
 	#laws
 	zaibatsu_exploitation
 	crippled_economy
+	rrc_instability_low
+	rrc_nihonmachi_low
 }
-
 
 set_convoys = 40
 

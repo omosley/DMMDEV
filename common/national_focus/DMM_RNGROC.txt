@@ -15,14 +15,11 @@ focus_tree = {
     	icon = GFX_focus_generic_self_management
         x = 4
         y = 1
-        cost = 2
+        cost = 5
         available_if_capitulated = yes 
         prerequisite = { focus = CHI_anewpolicyforchina }
         ai_will_do = { 
             factor = 1
-        } 
-        bypass = { 
-            has_country_flag = in_dire_straits
         }
         available = { 
 			has_country_leader = {
@@ -46,14 +43,11 @@ focus_tree = {
     	icon = GFX_focus_chi_collaboration_with_the_japanese
         x = 3
         y = 2
-        cost = 2
+        cost = 5
         available_if_capitulated = yes 
         prerequisite = { focus = CHI_a_firm_hand }
         ai_will_do = { 
             factor = 1
-        } 
-        bypass = { 
-            has_country_flag = in_dire_straits
         }
         available = { 
 			has_country_leader = {
@@ -77,14 +71,11 @@ focus_tree = {
     	icon = GFX_focus_generic_china1
         x = 5
         y = 2
-        cost = 2
+        cost = 5
         available_if_capitulated = yes 
         prerequisite = { focus = CHI_a_firm_hand }
         ai_will_do = { 
             factor = 1
-        } 
-        bypass = { 
-            has_country_flag = in_dire_straits
         }
         available = { 
 			has_country_leader = {
@@ -94,7 +85,13 @@ focus_tree = {
             has_country_flag = rrc_wenying_liu_priority
  		}
         completion_reward = {
-
+            custom_effect_tooltip = rrc_wenying_liu_consider_tt
+            hidden_effect = {
+                country_event = {
+                    id = natchina.23
+                    days = 1
+                }
+            }
         }
     }
     focus = {
@@ -102,14 +99,11 @@ focus_tree = {
     	icon = GFX_focus_generic_diplomatic_treaty
         x = 5
         y = 3
-        cost = 1
+        cost = 5
         available_if_capitulated = yes 
         prerequisite = { focus = CHI_consider_the_united_front }
         ai_will_do = { 
             factor = 1
-        } 
-        bypass = { 
-            has_country_flag = in_dire_straits
         }
         available = { 
 			has_country_leader = {
@@ -118,7 +112,12 @@ focus_tree = {
 			}
  		}
         completion_reward = {
-
+            hidden_effect = {
+                country_event = {
+                    id = natchina.24
+                    days = 1
+                }
+            }
         }
     }
     focus = {
@@ -126,15 +125,12 @@ focus_tree = {
     	icon = GFX_focus_rrc_garrison_moves
         x = 3
         y = 3
-        cost = 1
+        cost = 5
         available_if_capitulated = yes 
         prerequisite = { focus = CHI_consider_japan }
         ai_will_do = { 
             factor = 1
-        } 
-        bypass = { 
-            has_country_flag = in_dire_straits
-        } 
+        }
         available = { 
 			has_country_leader = {
 				name = "Wang Wenying"
@@ -142,7 +138,9 @@ focus_tree = {
 			}
  		}
         completion_reward = {
-
+        	hidden_effect = {
+        		set_country_flag = rrc_wenying_assure_garrison
+        	}
         }
     }
     focus = {
@@ -150,16 +148,12 @@ focus_tree = {
     	icon = GFX_goal_generic_neutrality_focus
         x = 4
         y = 4
-        cost = 1
+        cost = 5
         available_if_capitulated = yes 
-        prerequisite = { focus = CHI_reassure_the_garrison }
-        prerequisite = { focus = CHI_concede_some_autonomy }
+        prerequisite = { focus = CHI_reassure_the_garrison focus = CHI_concede_some_autonomy }
         ai_will_do = { 
             factor = 1
-        } 
-        bypass = { 
-            has_country_flag = in_dire_straits
-        } 
+        }
         available = { 
 			has_country_leader = {
 				name = "Wang Wenying"
@@ -167,7 +161,14 @@ focus_tree = {
 			}
  		}
         completion_reward = {
-
+            custom_effect_tooltip = rrc_wenying_balance_tt
+            hidden_effect = {
+                add_political_power = 50
+                country_event = {
+                    id = natchina.25
+                    days = 1
+                }
+            }
         }
     }
     focus = {
@@ -175,14 +176,11 @@ focus_tree = {
     	icon = GFX_goal_generic_positive_trade_relations
         x = 4
         y = 5
-        cost = 1
+        cost = 5
         available_if_capitulated = yes 
         prerequisite = { focus = CHI_maintain_the_balance }
         ai_will_do = { 
             factor = 1
-        } 
-        bypass = { 
-            has_country_flag = in_dire_straits
         }
         available = { 
 			has_country_leader = {
@@ -191,7 +189,7 @@ focus_tree = {
 			}
  		}
         completion_reward = {
-
+            custom_effect_tooltip = rrc_new_investments_tt
         }
     }
     focus = {
@@ -199,14 +197,11 @@ focus_tree = {
     	icon = GFX_goal_generic_position_armies
         x = 2
         y = 5
-        cost = 1
+        cost = 5
         available_if_capitulated = yes 
         prerequisite = { focus = CHI_maintain_the_balance }
         ai_will_do = { 
             factor = 1
-        } 
-        bypass = { 
-            has_country_flag = in_dire_straits
         }
         available = { 
 			has_country_leader = {
@@ -215,7 +210,7 @@ focus_tree = {
 			}
  		}
         completion_reward = {
-
+            custom_effect_tooltip = rrc_reinforce_allies_tt
         }
     }
     focus = {
@@ -223,14 +218,11 @@ focus_tree = {
     	icon = GFX_goal_generic_propaganda
         x = 6
         y = 5
-        cost = 1
+        cost = 5
         available_if_capitulated = yes 
         prerequisite = { focus = CHI_maintain_the_balance }
         ai_will_do = { 
             factor = 1
-        } 
-        bypass = { 
-            has_country_flag = in_dire_straits
         }
         available = { 
 			has_country_leader = {
@@ -239,7 +231,7 @@ focus_tree = {
 			}
  		}
         completion_reward = {
-
+            custom_effect_tooltip = rrc_propaganda_tt  
         }
     }
 }

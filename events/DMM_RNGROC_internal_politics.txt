@@ -17,10 +17,6 @@ country_event = { #Setup
 	option = {
 		name = rrcdom.0.a
 		set_variable = {
-			var = rrc_instability
-			value = 0
-		}
-		set_variable = {
 			var = rrc_koichi_anger
 			value = 0
 		}
@@ -32,6 +28,7 @@ country_event = { #Setup
 			var = rrc_wang_support
 			value = 0
 		}
+		add_to_variable = { rrc_wang_support = rrc_wang_wenying_decentralization }
 	}
 }
 
@@ -66,8 +63,10 @@ country_event = { #The Assembly hears Wang Jiebing
 			country_event = {
 				id = rrcrepeat.0
 			}
-			add_to_variable = { rrc_instability = 2 }
+			set_variable = { rrc_instability_increase = 2 }
+			change_instability_china = yes
 			add_to_variable = { rrc_koichi_anger = 1 }
+			change_power_struggle_dynamic_china = yes
 			country_event = {
 				id = rrcdom.9
 				days = 1
@@ -82,8 +81,10 @@ country_event = { #The Assembly hears Wang Jiebing
 			country_event = {
 				id = rrcrepeat.0
 			}
-			add_to_variable = { rrc_instability = 5 }
+			set_variable = { rrc_instability_increase = 4 }
+			change_instability_china = yes
 			add_to_variable = { rrc_koichi_anger = 5 }
+			change_power_struggle_dynamic_china = yes
 			country_event = {
 				id = rrcdom.10
 				days = 6
@@ -179,6 +180,7 @@ country_event = {
 			country_event = {
 				id = rrcrepeat.0
 			}
+			change_power_struggle_dynamic_china = yes
 		}
 	}
 }
@@ -196,6 +198,7 @@ country_event = {
 		custom_effect_tooltip = rrc.instability.tt
 		hidden_effect = {
 			add_to_variable = { rrc_instability = 1 }
+			change_instability_china = yes
 		}
 	}
 }
@@ -215,7 +218,9 @@ country_event = {
 			subtract_from_variable = { rrc_wang_support_increase = 2 }
 			add_to_variable = { rrc_koichi_anger = 1 }
 			add_to_variable = { rrc_liu_support_increase = 1 }
-			add_to_variable = { rrc_instability = 3 }
+			set_variable = { rrc_instability_increase = 3 }
+			change_instability_china = yes
+			change_power_struggle_dynamic_china = yes
 			country_event = {
 				id = rrcrepeat.0
 			}
@@ -238,10 +243,12 @@ country_event = {
 			subtract_from_variable = { rrc_liu_support_increase = 1 }
 			add_to_variable = { rrc_koichi_anger = 3 }
 			add_to_variable = { rrc_wang_support_increase = 2 }
-			subtract_from_variable = { rrc_instability = 1 }
+			set_variable = { rrc_instability_increase = -1 }
+			change_instability_china = yes
 			country_event = {
 				id = rrcrepeat.0
 			}
+			change_power_struggle_dynamic_china = yes
 		}
 	}
 }
@@ -263,6 +270,7 @@ country_event = {
 			country_event = {
 				id = rrcrepeat.0
 			}
+			change_power_struggle_dynamic_china = yes
 		}
 	}
 }
@@ -281,10 +289,12 @@ country_event = {
 		hidden_effect = {
 			add_to_variable = { rrc_koichi_anger = 2 }
 			add_to_variable = { rrc_liu_support_increase = 1 }
-			add_to_variable = { rrc_instability = 2 }
+			set_variable = { rrc_instability_increase = 2 }
+			change_instability_china = yes
 			country_event = {
 				id = rrcrepeat.0
 			}
+			change_power_struggle_dynamic_china = yes
 		}
 	}
 }
@@ -348,7 +358,8 @@ country_event = { #liu holds a public rally
 		hidden_effect = {
 			add_to_variable = { rrc_liu_support_increase = 2 }
 			add_to_variable = { rrc_koichi_anger = 1 }
-			subtract_from_variable = { rrc_instability = 1 }
+			set_variable = { rrc_instability_increase = -1 }
+			change_instability_china = yes
 			country_event = {
 				id = rrcdom.11
 				days = 5
@@ -356,6 +367,7 @@ country_event = { #liu holds a public rally
 			country_event = {
 				id = rrcrepeat.0
 			}
+			change_power_struggle_dynamic_china = yes
 		}
 	}
 	option = { #rally broken up by police
@@ -364,7 +376,8 @@ country_event = { #liu holds a public rally
 		hidden_effect = {
 			add_to_variable = { rrc_liu_support_increase = -1 }
 			add_to_variable = { rrc_koichi_anger = -1 }
-			add_to_variable = { rrc_instability = 1 }
+			set_variable = { rrc_instability_increase = 1 }
+			change_instability_china = yes
 			country_event = {
 				id = rrcdom.11
 				days = 5
@@ -372,6 +385,7 @@ country_event = { #liu holds a public rally
 			country_event = {
 				id = rrcrepeat.0
 			}
+			change_power_struggle_dynamic_china = yes
 		}
 	}
 }
@@ -394,6 +408,7 @@ country_event = { #the ministries declare for wang
 			country_event = {
 				id = rrcrepeat.0
 			}
+			change_power_struggle_dynamic_china = yes
 		}
 	}
 }
@@ -416,6 +431,7 @@ country_event = { #the army brass takes a side
 			country_event = {
 				id = rrcrepeat.0
 			}
+			change_power_struggle_dynamic_china = yes
 		}
 	}
 
@@ -424,7 +440,8 @@ country_event = { #the army brass takes a side
 		custom_effect_tooltip = rrc.liu_increase_instability
 		hidden_effect = {
 			add_to_variable = { rrc_liu_support_increase = 2 }
-			add_to_variable = { rrc_instability = 1 }
+			set_variable = { rrc_instability_increase = 1 }
+			change_instability_china = yes
 			country_event = {
 				id = rrcdom.13
 				days = 5
@@ -432,6 +449,7 @@ country_event = { #the army brass takes a side
 			country_event = {
 				id = rrcrepeat.0
 			}
+			change_power_struggle_dynamic_china = yes
 		}
 	}
 }
@@ -450,7 +468,7 @@ country_event = { #evaluate
 				limit = {
 					check_variable = {
 						var = rrc_instability
-						value = 7
+						value = 10
 						compare = greater_than_or_equals
 					}
 				}
