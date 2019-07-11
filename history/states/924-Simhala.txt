@@ -9,7 +9,7 @@ state={
 		}
 	}
 	provinces={
-		4219 12258 7260 1213 10287
+		4219 12258 7260 1213 10287 7344
 	}
 	manpower=27856
 	state_category=large_city
