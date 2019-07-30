@@ -7,8 +7,8 @@ state={
 	state_category = city
 
 	history={
-		owner = BRT
-		add_core_of = BRT
+		owner = FRA
+		add_core_of = FRA
 		victory_points = {
 			3552 20
 		}
@@ -35,14 +35,13 @@ state={
 			}
 		}
 		2003.12.12 = {
-			owner = BRT
-			controller = BRT
+			owner = FRA
+			controller = FRA
 			buildings = {
 				infrastructure = 4
 				air_base = 2
 			}
 		}
-        add_core_of = BRT
         add_core_of = FRA
 	}
 
