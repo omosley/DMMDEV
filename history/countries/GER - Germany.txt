@@ -65,20 +65,37 @@ set_popularities = {
     communist = 0
 }
 
-create_faction = voelkerpakt
+create_faction = Malburg Defense Accords
 add_to_faction = GER
+add_to_faction = AFK
+add_to_faction = AZR
+add_to_faction = ITA
+add_to_faction = CRO
+add_to_faction = FRA
+add_to_faction = MFR
+add_to_faction = GKK
+add_to_faction = GKM
+add_to_faction = GKN
+add_to_faction = GRE
+add_to_faction = HUN
+add_to_faction = ROM
+add_to_faction = ENG
 
 add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+	geierpolitik
+	recovering_economy
+	master_of_europe
+	heydrichs_ghost
 }
 create_country_leader = {
-	name = "Adolf Hitler"
+	name = "Wolfgang Schneiderhan"
 	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_Germany_Adolf_Hitler.dds"
-	expire = "1965.1.1"
-	ideology = nazism
+	picture = "GER_Wolfgang_Schneiderhan.tga"
+	expire = "2020.1.1"
+	ideology = authoritarian
 	traits = {
 		dictator
 	}

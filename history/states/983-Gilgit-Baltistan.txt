@@ -9,7 +9,7 @@ state={
 	state_category = rural
 	
 	history={
-		owner = AFG
+		owner = JAM
 		add_core_of = AFG
 	}
 	buildings_max_level_factor=1.000
