@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = GKN
+		owner = GKM
 		buildings = {
 			infrastructure = 1
 			12530 = {
@@ -19,7 +19,7 @@ state={
 			}
 
 		}
-		add_core_of = GKN
+		add_core_of = GKM
 	}
 
 	provinces={

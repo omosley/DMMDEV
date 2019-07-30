@@ -7,11 +7,11 @@ state={
 	state_category = rural
 
 	history={
-		owner = GKN
+		owner = GKM
 		buildings = {
 			infrastructure = 5
 		}
-		add_core_of = GKN
+		add_core_of = GKM
 	}
 
 	provinces={

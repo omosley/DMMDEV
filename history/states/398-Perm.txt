@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = GKN
+		owner = GKM
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
@@ -16,7 +16,7 @@ state={
 		victory_points = {
 			7375 1 
 		}
-		add_core_of = GKN
+		add_core_of = GKM
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2

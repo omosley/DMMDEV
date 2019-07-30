@@ -9,11 +9,11 @@ state={
 	}
 
 	history={
-		owner = GKN
+		owner = GKM
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = GKN
+		add_core_of = GKM
 	}
 
 	provinces={
