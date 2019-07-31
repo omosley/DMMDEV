@@ -1,7 +1,6 @@
 ﻿division_template = {
-	name = "Infantry Division"		
-
-	division_names_group = SIA_INF_01
+	name = "Infantry Division"			# Represents both Philippines divisions and U.S. Division as expeditionary force
+	division_names_group = PHI_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -14,18 +13,23 @@
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
 	}
+	support = {
+	        engineer = { x = 0 y = 0 }
+	}
 }
+
+
 
 
 
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_0
-			creator = "SIA"
+			type = infantry_equipment_1
+			creator = "PHI"
 		}
 		requested_factories = 1
-		progress = 0.27
+		progress = 0.40
 		efficiency = 100
 	}
 }

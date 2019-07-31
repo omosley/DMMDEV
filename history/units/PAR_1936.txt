@@ -1,7 +1,6 @@
 ﻿division_template = {
-	name = "Infantry Division"		
-
-	division_names_group = SIA_INF_01
+	name = "División de Infanteria"				# Mandated to be at reserve levels following the Chaco War
+	division_names_group = SPAN_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -10,9 +9,6 @@
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
 	}
 }
 
@@ -22,10 +18,10 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
-			creator = "SIA"
+			creator = "PAR"
 		}
 		requested_factories = 1
-		progress = 0.27
+		progress = 0.73
 		efficiency = 100
 	}
 }
