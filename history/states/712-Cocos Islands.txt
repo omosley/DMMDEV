@@ -6,7 +6,7 @@ state={
 	
 	history=
 	{
-		owner = AST
+		owner = JAP
 		buildings = {
 			infrastructure = 3
 			13002 = {

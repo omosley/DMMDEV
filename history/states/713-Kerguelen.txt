@@ -5,7 +5,7 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = AUS
+		owner = GER
 		buildings = {
 			infrastructure = 1
 			2165 = {
