@@ -2,8 +2,10 @@
 state={
 	id=580
 	name="STATE_580" # Tobolsk
-	manpower = 88126
-	
+	manpower = 388126
+	resources={
+		oil=80
+	}
 	state_category = wasteland
 
 	history={

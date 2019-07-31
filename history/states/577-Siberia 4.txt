@@ -1,10 +1,10 @@
 
 state={
 	id=577 # Surgut
-	manpower = 29299
+	manpower = 261011
 	name="STATE_577"
 	resources={
-		oil=13 # was: 14
+		oil=100
 	}
 	
 	state_category = wasteland
