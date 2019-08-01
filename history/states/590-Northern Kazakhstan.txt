@@ -10,6 +10,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
+                        industrial_complex = 4
 
 		}
 		add_core_of = SOV
@@ -21,5 +22,5 @@ state={
 	}
 	manpower=1980533
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=city
 }
