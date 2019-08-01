@@ -4,13 +4,13 @@ state={
 	name="STATE_572" # Chelyabinsk
 	manpower = 2074932
 	
-	state_category = town
+	state_category = city
 
 	history={
 		owner = SOV
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 1
+			industrial_complex = 3
 
 		}
 		add_core_of = SOV
