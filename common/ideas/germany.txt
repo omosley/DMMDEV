@@ -22,8 +22,8 @@ ideas = {
 				experience_gain_navy = 0.01
 				experience_gain_air = 0.02
 				consumer_goods_factor = -0.03
-				land_equipment_upgrade_xp_cost = -10
-				air_equipment_upgrade_xp_cost = -10
+				land_equipment_upgrade_xp_cost = -0.10
+				air_equipment_upgrade_xp_cost = -0.10
 				industrial_capacity_factory = 0.1
 				license_purchase_cost = -0.5
 

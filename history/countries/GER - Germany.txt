@@ -65,7 +65,7 @@ set_popularities = {
     communist = 0
 }
 
-create_faction = Malburg Defense Accords
+create_faction = Malburgpakt
 add_to_faction = GER
 add_to_faction = AFK
 add_to_faction = AZR
