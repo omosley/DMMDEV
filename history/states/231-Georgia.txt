@@ -1,9 +1,10 @@
+
 state={
 	id=231
 	name="STATE_231"
 
 	history={
-		owner = RKK
+		owner = GEO
 		victory_points = {
 			1599 5 
 		}
@@ -21,7 +22,7 @@ state={
 			}
 
 		}
-		add_core_of = RKK
+		add_core_of = GEO
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 3
@@ -33,7 +34,7 @@ state={
 	}
 
 	provinces={
-		654 672 772 1530 1599 3653 3656 3658 4534 4605 6436 6669 6671 9626 9702 11599 11617 12309 
+		654 672 772 1530 1599 3653 3656 3658 3667 4534 4605 6436 6669 6671 6674 9626 9663 9702 11599 11609 11617 11647 12309 
 	}
 	manpower=8769252
 	buildings_max_level_factor=1.000
