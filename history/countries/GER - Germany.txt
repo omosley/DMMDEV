@@ -80,6 +80,96 @@ add_to_faction = GRE
 add_to_faction = HUN
 add_to_faction = ROM
 add_to_faction = ENG
+add_to_faction = RKK
+add_to_faction = DAG
+add_to_faction = GEO
+add_to_faction = ARM
+add_to_faction = CHE
+add_to_faction = TUR
+add_to_faction = BUL
+add_to_faction = SER
+add_to_faction = SAU
+add_to_faction = IRQ
+add_to_faction = IRE
+add_to_faction = NFT
+add_to_faction = NOR
+add_to_faction = DEN
+add_to_faction = UKR
+add_to_faction = SLO
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = GKM
+		autonomous_state = autonomy_reichskomissariat
+                freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = AFK
+		autonomous_state = autonomy_reichskomissariat
+		freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = RKK
+		autonomous_state = autonomy_reichskomissariat
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = MFR
+		autonomous_state = autonomy_reichsprotectorate
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = FRA
+		autonomous_state = autonomy_reichsprotectorate
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = UKR
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = DEN
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.7
+	}
+	set_autonomy = {
+		target = NOR
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.9
+	}
+	set_autonomy = {
+		target = SLO
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = SER
+		autonomous_state = autonomy_reichsprotectorate
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = TUR
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.4
+	}
+	else = {
+		puppet = AFK
+		puppet = MFR
+        puppet = GKM
+		puppet = RKK
+		puppet = SLO
+		puppet = SER
+		puppet = FRA
+		puppet = TUR
+	}
+}
 
 add_ideas = {
 	limited_exports

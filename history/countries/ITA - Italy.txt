@@ -10,7 +10,34 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 }
-
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = SAU
+		autonomous_state = autonomy_satellite
+                freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = IRQ
+		autonomous_state = autonomy_satellite
+                freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = GRE
+		autonomous_state = autonomy_satellite
+                freedom_level = 0.5
+	}
+	else = {
+		puppet = IRQ
+		puppet = SAU
+		puppet = GRE
+	}
+}
 
 # Starting tech
 set_technology = {

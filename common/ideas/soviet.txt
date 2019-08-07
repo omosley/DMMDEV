@@ -3,7 +3,7 @@ ideas = {
     country = {
         SOV_famine = {
 
-			picture = ENG_the_war_to_end_all_wars
+			picture = russianstarvation
 
 			allowed = {
 				original_tag = SOV
@@ -25,6 +25,7 @@ ideas = {
 			}
 		}
 		SOV_the_russian_bear = {
+		    picture = the_russian_bear
 		    allowed = {
 				always = no
 			}
@@ -73,8 +74,8 @@ ideas = {
 				defense_bonus_against = -0.05
 			}
 		}
-		SOV_corrupt_oligarchic_republic = {
-			picture = 
+		SOV_corrupt_confederation = {
+			picture = widespread_corruption
 		
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }

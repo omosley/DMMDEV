@@ -2,7 +2,8 @@ ideas = {
 
 	country = {
 		geierpolitik = {
-			
+
+			picture = geierpolitik
 			allowed = {
 				original_tag = GER
 			}
