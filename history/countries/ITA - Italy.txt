@@ -10,7 +10,34 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 }
-
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = SAU
+		autonomous_state = autonomy_satellite
+                freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = IRQ
+		autonomous_state = autonomy_satellite
+                freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = GRE
+		autonomous_state = autonomy_satellite
+                freedom_level = 0.5
+	}
+	else = {
+		puppet = IRQ
+		puppet = SAU
+		puppet = GRE
+	}
+}
 
 # Starting tech
 set_technology = {
@@ -65,10 +92,10 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "Benito Mussolini"
+	name = "Gianfranco Fini"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "Portrait_Italy_Benito_Mussolini.dds"
-	expire = "1965.1.1"
+	picture = "ITA_Gianfranco_Fini.tga"
+	expire = "2019.1.1"
 	ideology = military_junta
 	traits = {
 		

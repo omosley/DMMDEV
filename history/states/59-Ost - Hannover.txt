@@ -2,12 +2,12 @@
 state={
 	id=59
 	name="STATE_59"
-	manpower = 2438286
+	manpower = 9748638
 	resources={
 		oil=2 # was: 4
 	}
 	
-	state_category = large_city
+	state_category = metropolis
 
 	history={
 		owner = GER
@@ -21,9 +21,9 @@ state={
 			infrastructure = 7
 			arms_factory = 2
 			industrial_complex = 1
-			dockyard = 2
+			dockyard = 4
 			6325 = {
-				naval_base = 1
+				naval_base = 8
 			}
 
 		}

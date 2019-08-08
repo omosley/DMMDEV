@@ -47,6 +47,15 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+	SOV_famine
+	SOV_the_russian_bear
+	SOV_corrupt_oligarchic_republic
+}
+
 set_popularities = {
     fascist = 25
     authoritarian = 15

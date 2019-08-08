@@ -2,14 +2,16 @@
 state={
 	id=449
 	name="STATE_449" # El Agheila
-	manpower = 40431
-	
-	state_category = enclave
+	manpower = 2613749
+	resources={
+		oil = 30
+	}
+	state_category = city
 
 	history={
 		owner = ITA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 		}
 		add_core_of = LBA
 	}

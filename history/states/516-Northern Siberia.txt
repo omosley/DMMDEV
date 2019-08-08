@@ -3,8 +3,11 @@ state={
 	id=516
 	name="STATE_516" # Northwestern Siberia
 	manpower = 43948
+        resources={
+		oil=80
+	}
 	
-	state_category = wasteland
+	state_category = rural
 
 	history={
 		owner = SOV

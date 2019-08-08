@@ -3711,4 +3711,48 @@ spriteTypes = {
 		name = "GFX_idea_kempeitai"
 		texturefile = "gfx/interface/ideas/kempeitai.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_russianstarvation"
+		texturefile = "gfx/interface/ideas/russianstarvation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_the_russian_bear"
+		texturefile = "gfx/interface/ideas/the_russian_bear.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_the_russian_bear_triumphant"
+		texturefile = "gfx/interface/ideas/the_russian_bear_triumphant.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_geierpolitik"
+		texturefile = "gfx/interface/ideas/geierpolitik.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_widespread_corruption"
+		texturefile = "gfx/interface/ideas/widespread_corruption.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bankrupt_nissan"
+		texturefile = "gfx/interface/ideas/bankrupt_nissan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bankrupt_kawasaki"
+		texturefile = "gfx/interface/ideas/bankrupt_kawasaki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bankrupt_mitsubishi"
+		texturefile = "gfx/interface/ideas/bankrupt_mitsubishi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bankrupt_nakajima"
+		texturefile = "gfx/interface/ideas/bankrupt_nakajima.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bankrupt_sumitomo"
+		texturefile = "gfx/interface/ideas/bankrupt_sumitomo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_heydrichs_ghost"
+		texturefile = "gfx/interface/ideas/heydrichs_ghost.dds"
+	}
 }

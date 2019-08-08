@@ -1,9 +1,9 @@
 state= {
 	id=2
 	name="STATE_2" # Latium
-	manpower = 2781971
+	manpower = 5981971
 	
-	state_category = city
+	state_category = metropolis
 
 	history=
 	{
@@ -11,7 +11,7 @@ state= {
 		victory_points = { 9904 40 }
 		victory_points = { 11846 5 }
 		buildings = {
-			infrastructure = 8
+			infrastructure = 10
 			air_base = 8
 			arms_factory = 1
 			industrial_complex = 4

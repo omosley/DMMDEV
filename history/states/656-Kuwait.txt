@@ -1,17 +1,20 @@
 state={
 	id=656
 	name="STATE_656"
-	manpower = 80000
+	manpower = 2213403
+        resources={
+		oil=125
+	}
 	
-	state_category = rural
+	state_category = metropolis
 	
 	history={
-		owner = ENG
+		owner = IRQ
 		victory_points = {
 			8085 1 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 8
 			8085 = {
 				naval_base = 4
 			}

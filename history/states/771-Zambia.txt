@@ -7,18 +7,18 @@ state={
 	}
 
 	history={
-		owner = RKK
+		owner = CHE
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 
 		}
-		add_core_of = RKK
+		add_core_of = CHE
 
 	}
 
 	provinces={
-		6702 6733 9647 11661 11690 
+		666 670 683 3672 11632 
 	}
 	manpower=560000
 	buildings_max_level_factor=1.000
