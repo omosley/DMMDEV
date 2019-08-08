@@ -3751,4 +3751,8 @@ spriteTypes = {
 		name = "GFX_idea_bankrupt_sumitomo"
 		texturefile = "gfx/interface/ideas/bankrupt_sumitomo.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_heydrichs_ghost"
+		texturefile = "gfx/interface/ideas/heydrichs_ghost.dds"
+	}
 }
