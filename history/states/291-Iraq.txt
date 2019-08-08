@@ -2,9 +2,9 @@
 state={
 	id=291
 	name="STATE_291"
-	manpower = 2044165
+	manpower = 30044165
 	
-	state_category = town
+	state_category = metropolis
 	
 	resources={
 		oil=15 # was: 22
@@ -19,12 +19,12 @@ state={
 			2089 1 
 		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 7
 			arms_factory = 1
 			industrial_complex = 2 
 			air_base = 4
 			2089 = {
-				naval_base = 1
+				naval_base = 5
 			}
 		}
 		add_core_of = IRQ

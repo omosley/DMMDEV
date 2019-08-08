@@ -2,9 +2,9 @@
 state={
 	id=659
 	name="STATE_659"
-	manpower = 891505
+	manpower = 2585484
 
-	state_category = pastoral
+	state_category = town
 
 	history={
 		owner = YEM

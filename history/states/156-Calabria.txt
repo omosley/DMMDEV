@@ -2,16 +2,16 @@
 state={
 	id=156
 	name="STATE_156"
-	manpower = 2966315
+	manpower = 4663888
 	
-	state_category = city
+	state_category = metropolis
 	history={
 		owner = ITA
 		victory_points = {
 			11837 15 
 		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 8
 			dockyard = 4
 			air_base = 5
 			11837 = {

@@ -2,17 +2,17 @@
 state={
 	id=292
 	name="STATE_292"
-	manpower = 1440000
+	manpower = 22440000
 	
-	state_category = rural
+	state_category = large_city
 	resources={
-		oil=842
+		oil=442
 	}
 
 	history={
 		owner = SAU
 		buildings = {
-			infrastructure = 1
+			infrastructure = 7
 			arms_factory = 1
 			industrial_complex = 1
 			12702 = {

@@ -6,7 +6,7 @@ state={
 	history={
 		owner = ITA
 		buildings = {
-			infrastructure = 5
+			infrastructure = 7
 			industrial_complex = 1
 			air_base = 2
 			4206 = {
@@ -22,15 +22,13 @@ state={
 			4206 1 
 		}
 		add_core_of = PAL
-		add_core_of = ISR
-		add_core_of = OSP
 
 	}
 
 	provinces={
 		1 1015 1065 1086 1201 4088 4206 7107 7176 11970 
 	}
-	manpower=933142
+	manpower=4733142
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 }
