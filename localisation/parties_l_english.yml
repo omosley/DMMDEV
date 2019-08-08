@@ -625,3 +625,14 @@
  corporatist:0 "National Socialism"
  RRC_corporatist_party:0 "NTST" #日本帝国市民党
  RRC_corporatist_party_long:0 "Nihon Teikoku Shimin-tō (Japanese Imperial Citizen Party)"
+
+ GER_corporatist_party:0 "NSDAP"
+ GER_corporatist_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+ GER_fascist_party:0 "Allgermanische Reichspartei"
+ GER_authoritarian_party:0 "Großdeutsche Volkspartei"
+ GER_reactionary_party:0 "Deutschchristliche Partei"
+ GER_conservative_party:0 "Konservative Revolution"
+ GER_liberal_party:0 "Liberaler Untergrund"
+ GER_social_democrat_party:0 "Sozialdemokratischer Untergrund"
+ GER_socialist_party:0 "Hellrote Kapelle"
+ GER_communist_party:0 "Tiefrote Kapelle"

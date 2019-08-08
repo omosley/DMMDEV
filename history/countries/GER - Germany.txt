@@ -55,10 +55,11 @@ set_politics = {
 }
 
 set_popularities = {
-    fascist = 25
-    authoritarian = 15
-    reactionary = 58
-    conservative = 2
+	corporatist = 65
+    fascist = 15
+    authoritarian = 13
+    reactionary = 7
+    conservative = 0
     liberal = 0
     social_democrat = 0
     socialist = 0
@@ -72,13 +73,17 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+	geierpolitik
+	recovering_economy
+	master_of_europe
+	heydrichs_ghost
 }
 create_country_leader = {
-	name = "Adolf Hitler"
+	name = "Reichstag"
 	desc = "POLITICS_ADOLF_HITLER_DESC"
 	picture = "Portrait_Germany_Adolf_Hitler.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		dictator
 	}
@@ -96,6 +101,90 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Wilhelm Pieck"
+	desc = "POLITICS_WILHELM_PIECK_DESC"
+	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
+	expire = "1965.1.1"
+	ideology = vanguard_communism
+	traits = {
+		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
+		exiled # He left in 1933 so he should still be exiled
+	}
+}
+
+create_country_leader = {
+	name = "Reichstag"
+	desc = "POLITICS_WILHELM_PIECK_DESC"
+	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
+	expire = "1965.1.1"
+	ideology = esoteric_fascism
+	traits = {
+		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
+		exiled # He left in 1933 so he should still be exiled
+	}
+}
+
+create_country_leader = {
+	name = "Reichstag"
+	desc = "POLITICS_WILHELM_PIECK_DESC"
+	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
+		exiled # He left in 1933 so he should still be exiled
+	}
+}
+
+create_country_leader = {
+	name = "Reichstag"
+	desc = "POLITICS_WILHELM_PIECK_DESC"
+	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
+	expire = "1965.1.1"
+	ideology = nationalist
+	traits = {
+		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
+		exiled # He left in 1933 so he should still be exiled
+	}
+}
+
+create_country_leader = {
+	name = "Hans-Dietrich Genscher"
+	desc = "POLITICS_WILHELM_PIECK_DESC"
+	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
+	expire = "1965.1.1"
+	ideology = revolutionary_liberalism
+	traits = {
+		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
+		exiled # He left in 1933 so he should still be exiled
+	}
+}
+
+create_country_leader = {
+	name = "Franz Müntefering"
+	desc = "POLITICS_WILHELM_PIECK_DESC"
+	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {
+		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
+		exiled # He left in 1933 so he should still be exiled
+	}
+}
+
+create_country_leader = {
+	name = "Sozialistische Internationale"
+	desc = "POLITICS_WILHELM_PIECK_DESC"
+	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
+	expire = "1965.1.1"
+	ideology = orthodox_marxism
+	traits = {
+		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
+		exiled # He left in 1933 so he should still be exiled
+	}
+}
+
+create_country_leader = {
+	name = "Kommunistische Internationale"
 	desc = "POLITICS_WILHELM_PIECK_DESC"
 	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
 	expire = "1965.1.1"

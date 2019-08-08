@@ -142,5 +142,31 @@
   dmm_wang_wenying_desc8:0 "Arrested in 1987 for 'dangerous political rhetoric' and under house arrest since 1989, Bao Tong is a dangerous reformist dissident that we tried to keep away from the public for many years. However, a few days ago, a sympathetic guard 'forgot' to keep watch over the back door of Bao's house long enough for the man to escape and be picked up by a friend's car in what police officials have called 'a masterfully orchestrated escape'. Bao Tong apparently subsequently took the next flight to Irkutsk from Shanghai-Hongqiao under a fake ID. It is assumed he has already left Russia for the United States or Canada, where he will surely spread his poison to exactly the wrong people..."
   dmm_wang_wenying_a8:0 "Apprehend the guard. I want heads to roll over this!"
   dmm_wang_wenying_title9:0 "A Crack in the Armor"
-  dmm_wang_wenying_desc9:0 "As he was holding a public speech congratulating the workers of the newly-opened Nissan Motors plant in Shanghai, a bullet was shot at the head of Wang Wenying's son and political protégé, Wang Jiebing. Due to accidentally stumbling while walking towards the microphone, Jiebing's head was missed by mere centimeters. Police immediately searched the apartment blocks surrounding the stage and found gunpowder marks on one of the roofs, though every inhabitant of the house swears to have seen and heard nothing. Wang Wenying is reportedly fuming with rage."
+  dmm_wang_wenying_desc9:0 "As he was holding a public speech congratulating the workers of the newly-opened Nissan Motors plant in Shanghai, a bullet was shot at the head of Wang Wenying's son and political protégé, Wang Jiebing. Due to him accidentally stumbling while walking towards the microphone, Jiebing's head was missed by mere centimeters. Police immediately searched the apartment blocks surrounding the stage and found gunpowder marks on one of the roofs, though every inhabitant of the house swears to have seen and heard nothing. Wang Wenying is reportedly fuming with rage."
   dmm_wang_wenying_a9:0 "If they saw nothing, they're complicit. Apprehend them!"
+
+
+#############################################################################################################################################################################################################################################################################################################################################################################
+
+dmm_rrc_exec_yan_jiagan:0 "Yan Jiagan is a rare sight - a higher-ranking GMD politician that did not only not flee China after the War was lost, but one that managed to re-enter the Halls of Power under the new regime. Yan is widely recognized as being the inventor of land tax payments in natural produce during the War, potentially avoiding millions of famine deaths. Although subject in his policymaking to the President's whims, he has retained much popularity amongst the common folk, and many see in him one of the greatest sources of legitimacy for the Reorganized Nationalist Government."
+dmm_rrc_legis_wang_jinping:0 "Wang Jinping is seen by many as a mere lapdog to the Japanese, having been born in Taiwan and growing up there. Nevertheless, there is one thing that no one can deride him as - inefficient. Wang is extremely talented at getting people to agree to his political efforts...by verbal or other means."
+dmm_rrc_exam_kong_decheng:0 "An erudite with a most honorable lineage - that is Kong Decheng. The Professor at Nanjing University swore in 1937 to 'fight the Japanese as soon as I reach the age of military service', but was kept from serving in the Army due to his ceremonial importance - he is a direct descendant of Confucius in the 77th generation. He is effectively forced to participate in the government, as his children are closely 'guarded' by Kempeitai officers at all times. In his position as President of the Examination Yuan, Kong Decheng has always taken great care to deliberately weed out the most radical ideologues, but his great spiritual importance forbids direct action against him."
+dmm_rrc_control_qian_fu:0 "The Son of a prominent academic attempting to step out of his father's long shadow - the ambitious Qian Fu is dedicated to his post as President of the Control Yuan to the last. Discovering numerous cases of egoistic corruption and Japanese embezzlement of Army funds, he has made himself plenty of enemies, but is hailed by many others as the epitome of political virtue."
+dmm_rrc_judic_xu_zongli:0 "A pragmatist of the post-GMD era, Xu Zongli is of the opinion that Man has to pick his battles diligently to live another day, which is why the President of the Judicial Yuan steers clear of attempting to start a prosecution against Japanese officials for infringing on Chinese laws - it is an unwinnable uphill battle. On the other hand, he is more than willing to prosecute any Chinese nationals infringing on the law - it's horrifyingly unjust, but it is pragmatic."
+dmm_rrc_army_li_zuocheng:0 "Li Zuocheng is young, radical, and unfortunately too competent at his job to dismiss him for these things. The General is one of Liu Zhongjing's outspoken supporters, and his enthusiasm and charisma have gained him great adoration from the average rank-and-file of the RNA. Should the government take any strong anti-Liuist actions, Li might demand an explanation or even more..."
+dmm_rrc_pres_wenying:0 "The position of Wang Wenying is powerful, but unenviable. As his body grows weaker, the elderly President is starting to see the cracks in his life's work - the stabilisation of China. Once again, political violence in the Urban East is rising, the partisans of the interior are growing more powerful by the day, and there's even been rumours of a supposed plot against his son and political protégé, Wang Jiebing. No, Wang Wenying's position is truly a lonely and unenviable one."
+
+dmm_rrc_pres_wenying_n:0 "§YWang Wenying§!"
+dmm_rrc_exec_yan_jiagan_n:0 "§YYan Jiagan§!"
+dmm_rrc_exam_kong_decheng_n:0 "§YKong Decheng§!"
+dmm_rrc_legis_wang_jinping_n:0 "§YWang Jinping§!"
+dmm_rrc_control_qian_fu_n:0 "§YQian Fu§!"
+dmm_rrc_army_li_zuocheng_n:0 "§YLi Zuocheng§!"
+dmm_rrc_judic_xu_zongli_n:0 "§YXu Zongli§!"
+ArmyLead_TT:0 "[DMM_ExecYuanLeaderDesc]"
+
+
+GER_AV:0 "Allgermanische Reichspartei"
+GER_GV:0 "Großdeutsche Volkspartei"
+GER_DP:0 "Deutschchristliche Partei"
+GER_NSDAP:0 "NSDAP"

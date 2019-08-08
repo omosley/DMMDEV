@@ -4,10 +4,10 @@ ideologies = {
 	
 		types = {
 			
-			corporate_rule = {
+			national_socialism = {
 			}
 			
-			corporate_monopoly = {
+			artamanism = {
 			}
 			
 			corporate_republic = {

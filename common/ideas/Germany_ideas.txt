@@ -1,0 +1,110 @@
+ideas = {
+
+	country = {
+		geierpolitik = {
+			
+			allowed = {
+				original_tag = GER
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				lend_lease_tension = -0.40
+				send_volunteers_tension = -0.30
+				send_volunteer_size = 2
+				trade_opinion_factor = -0.25
+				experience_gain_army = 0.03
+				experience_gain_navy = 0.01
+				experience_gain_air = 0.02
+				consumer_goods_factor = -0.03
+				land_equipment_upgrade_xp_cost = -0.1
+				air_equipment_upgrade_xp_cost = -0.1
+				industrial_capacity_factory = 0.1
+				license_purchase_cost = -0.5
+
+			}
+			equipment_bonus = {
+			    infantry_equipment = {
+				    soft_attack = 0.05
+				    breakthrough = 0.05
+				    build_cost_ic = -0.1
+				    instant = yes
+				}
+
+			}
+
+		}
+		
+		recovering_economy = {
+			
+			allowed = {
+				original_tag = GER
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_factory_max_efficiency_factor = -0.1
+				line_change_production_efficiency_factor = 0.2
+				production_speed_buildings_factor = 0.05
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = -0.1
+				
+			}
+		}
+
+		master_of_europe = {
+			
+			allowed = {
+				original_tag = GER
+			}
+			removal_cost = -1
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+			
+			modifier = {
+				political_power_gain = 0.5
+				drift_defence_factor = 0.5
+				guarantee_cost = -0.5
+				guarantee_tension = -0.5
+				justify_war_goal_time = -0.25
+
+
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+		
+		heydrichs_ghost = {
+			removal_cost = -1
+			allowed = {
+				original_tag = GER 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				political_power_gain = -0.25
+
+			}
+
+		}
+
+	}
+
+}	
+
