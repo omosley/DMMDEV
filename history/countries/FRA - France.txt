@@ -68,8 +68,6 @@ add_ideas = {
 	limited_conscription
 }
 
-#give_guarantee = CZE
-
 #Order matters here Daladier will start as leaders because added last
 create_country_leader = {
 	name = "Reconstruction Council"
