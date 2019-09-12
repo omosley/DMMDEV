@@ -30,7 +30,11 @@ ideas = {
 		FRA_terrorism = {
 		    picture = french_terrorism
 		    allowed = {
-				always = no
+				original_tag = FRA
+			}
+
+			allowed_civil_war = {
+				always = yes
 			}
 
 			removal_cost = -1

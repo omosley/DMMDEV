@@ -66,6 +66,8 @@ set_popularities = {
 
 add_ideas = {
 	limited_conscription
+        FRA_reconstruction_committee
+        FRA_terrorism
 }
 
 #Order matters here Daladier will start as leaders because added last

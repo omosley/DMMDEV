@@ -9,6 +9,9 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+	oil_kingdom
+	oversized_regia_marina
+    widespread_corruption1
 }
 if = {
 	limit = {
@@ -36,6 +39,8 @@ if = {
 		puppet = IRQ
 		puppet = SAU
 		puppet = GRE
+		puppet = UAE
+		
 	}
 }
 

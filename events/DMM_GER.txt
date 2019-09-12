@@ -1,0 +1,68 @@
+add_namespace = gerinternal
+
+#Introduction Event
+
+country_event = {
+	id = gerinternal.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerinternal.1"}
+	title = gerinternal.1.t
+	desc = gerinternal.1.d
+
+	trigger = {
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = gerinternal.1.a
+	}
+}
+
+#Economic Intro
+
+country_event = {
+	id = gerinternal.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerinternal.1"}
+	title = gerinternal.2.t
+	desc = gerinternal.2.d
+
+	trigger = {
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = gerinternal.2.a
+	}
+}
+
+country_event = {
+	id = gerinternal.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerinternal.1"}
+	title = gerinternal.3.t
+	desc = gerinternal.3.d
+
+	trigger = {
+		tag = GER
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = gerinternal.3.a
+	}
+}

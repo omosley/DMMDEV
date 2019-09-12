@@ -196,3 +196,25 @@
  KVA_communist_ADJ:0 "Khiva"
  
  KVA_DEF:0 "Turkmen"
+
+ LCM_fascist:0 "Lourenço Marques"
+ LCM_corporatist:0 "Lourenço Marques"
+ LCM_authoritarian:0 "Lourenço Marques"
+ LCM_reactionary:0 "Lourenço Marques"
+ LCM_conservative:0 "Lourenço Marques"
+ LCM_liberal:0 "Moçambique"
+ LCM_social_democrat:0 "Moçambique"
+ LCM_socialist:0 "Moçambique"
+ LCM_communist:0 "Moçambique"
+
+ LCM_fascist_ADJ:0 "Lourenço Marques"
+ LCM_corporatist_ADJ:0 "Lourenço Marques"
+ LCM_authoritarian_ADJ:0 "Lourenço Marques"
+ LCM_reactionary_ADJ:0 "Lourenço Marques"
+ LCM_conservative_ADJ:0 "Lourenço Marques"
+ LCM_liberal_ADJ:0 "Moçambique"
+ LCM_social_democrat_ADJ:0 "Moçambique"
+ LCM_socialist_ADJ:0 "Moçambique"
+ LCM_communist_ADJ:0 "Moçambique"
+
+ LCM_DEF:0 "Mozambican"

@@ -180,6 +180,7 @@ add_ideas = {
 	recovering_economy
 	master_of_europe
 	heydrichs_ghost
+	widespread_drug_addiction
 }
 create_country_leader = {
 	name = "Wolfgang Schneiderhan"

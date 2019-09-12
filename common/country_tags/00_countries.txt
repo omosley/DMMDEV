@@ -282,3 +282,7 @@ BEN = "countries/Bengal.txt"
 BOD = "countries/Bodoland.txt"
 SIK = "countries/Sikkim.txt"
 AZA = "countries/Azad Hind.txt"
+
+# Miu's Africa
+LCM = "countries/Lourenço Marques.txt"
+

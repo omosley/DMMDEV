@@ -3755,4 +3755,28 @@ spriteTypes = {
 		name = "GFX_idea_heydrichs_ghost"
 		texturefile = "gfx/interface/ideas/heydrichs_ghost.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_widespread_drug_addiction"
+		texturefile = "gfx/interface/ideas/widespread_drug_addiction.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_oil_kingdom"
+		texturefile = "gfx/interface/ideas/oil_kingdom.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_oversized_regia_marina"
+		texturefile = "gfx/interface/ideas/oversized_regia_marina.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_widespread_corruption1"
+		texturefile = "gfx/interface/ideas/widespread_corruption1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_igfarben"
+		texturefile = "gfx/interface/ideas/igfarben.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_afrikakorps2"
+		texturefile = "gfx/interface/ideas/afrikakorps2.dds"
+	}
 }

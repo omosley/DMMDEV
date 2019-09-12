@@ -18,6 +18,18 @@ on_startup = {
 			days = 1
 		}
 	}
+	GER = {
+		country_event = {
+			id = gerinternal.1
+			days = 1
+		}
+		country_event = {
+			id = gerinternal.2
+			days = 2
+		}
+		country_event = {
+			id = gerinternal.3
+			days = 4
+		}
 	}
-}
 }
