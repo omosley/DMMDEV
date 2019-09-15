@@ -105,8 +105,9 @@ ideas = {
 				political_power_gain = -0.25
 
 			}
-
+			
 		}
+
 		widespread_drug_addiction = {
 			removal_cost = -1
 			allowed = {
