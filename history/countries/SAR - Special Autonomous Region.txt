@@ -29,11 +29,12 @@ set_politics = {
 }
 
 set_popularities = {
-    fascist = 15
-    corporatist = 11
-    reactionary = 25
+    fascist = 5
+    corporatist = 0
+    authoritarian = 16 
+    reactionary = 36
     conservative = 30
-    liberal = 12
+    liberal = 6
     social_democrat = 7
     socialist = 0
     communist = 0
@@ -42,7 +43,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Amien Rais"
-	desc = ""
+	desc = "People outside his persuation often held this man, the head of ICMI Expert Council and the Chairman of AICU, as slimy backstabber that held his political career above anything. Naturally, Amien denied this. His reputation as proponent of reform dates way back before the civil war. His credential as negotiator is vindicated by Nahdatul Ulama accepting his nomination in 2003. The regional governors might not like him, the radical might not like him, but AICU is his. And they will fall in line, or we all fall together"
 	picture = "gfx/leaders/southeast_asia/portrait_dmm_indonesia_amien_rais.dds"
 	expire = "1953.3.1"
 	ideology = sunni_islamic_religious_conservatism 

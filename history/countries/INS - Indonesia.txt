@@ -31,19 +31,35 @@ set_politics = {
 
 set_popularities = {
     fascist = 2
-    corporatist = 10
-    reactionary = 2
+    corporatist = 2
+    authoritarian = 10
+    reactionary = 1
     conservative = 8
-    liberal = 10
-    social_democrat = 14
-    socialist = 34
-    communist = 20
+    liberal = 11
+    social_democrat = 17
+    socialist = 41
+    communist = 26
 }
 
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = SAR
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = SAR
+	}
+}
 
 create_country_leader = {
 	name = "Mochtar Pakpahan"
-	desc = ""
+	desc = "Mochtar Bebas Pakpahan, the man who they hoped could salvage the unsalvagable. His career as a low level apparatcnik after the war, jumped exponentially until he was the First Secretary of North Sumatran Regional Committee in the eve of another war. His reputation as nonfactional troubleshooter had allowed him to be nominated and proclaimed as the General Secretary, a promotion that thrusted him blind into capital. His grip in power is slim and a gust of wind could topple his whole career"
 	picture = "gfx/leaders/southeast_asia/portrait_dmm_indonesia_mochtar_pakpahan.dds"
 	expire = "1953.3.1"
 	ideology = market_socialism

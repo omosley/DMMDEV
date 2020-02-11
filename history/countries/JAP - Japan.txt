@@ -62,6 +62,7 @@ set_politics = {
 
 set_popularities = {
     fascist = 25
+    corporatist = 0
     authoritarian = 15
     reactionary = 58
     conservative = 2

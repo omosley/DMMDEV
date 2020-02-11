@@ -47,7 +47,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_cosmetic_tag = VIN_indochina_union
+
 set_popularities = {
+    corporatist = 0
     fascist = 25
     authoritarian = 15
     reactionary = 58
