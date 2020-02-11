@@ -32,4 +32,24 @@ on_startup = {
 			days = 4
 		}
 	}
+	SAR = {
+		set_politics = {
+			ruling_party = conservative
+			last_election = "1936.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+
+		set_popularities = {
+   			fascist = 5
+    		corporatist = 0
+    		authoritarian = 16 
+    		reactionary = 36
+    		conservative = 30
+    		liberal = 6
+    		social_democrat = 7
+   			socialist = 0
+    		communist = 0
+		}
+	}
 }
