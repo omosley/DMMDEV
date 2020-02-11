@@ -1,0 +1,16 @@
+state={
+	id=1037
+	name="STATE_1037"
+
+	history={
+		owner = VIN
+		add_core_of = VIN
+
+	}
+
+	provinces={
+		1577 4554 7426 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

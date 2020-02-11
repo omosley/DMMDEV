@@ -1,6 +1,6 @@
 ideologies = {
 
-	corporatist = {
+	corporatist = {	#National Socialist
 	
 		types = {
 			
